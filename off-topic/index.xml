@@ -2,36 +2,36 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Recent Articles on AakEz</title>
-    <link>http://example.org/off-topic/</link>
+    <link>https://aakash-ez.github.io/off-topic/</link>
     <description>Recent content in Recent Articles on AakEz</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 07 Feb 2021 00:00:00 +1800</lastBuildDate><atom:link href="http://example.org/off-topic/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 Feb 2021 00:00:00 +1800</lastBuildDate><atom:link href="https://aakash-ez.github.io/off-topic/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Getting Started with Google Football</title>
-      <link>http://example.org/off-topic/getting-started-with-google-football/</link>
+      <link>https://aakash-ez.github.io/off-topic/getting-started-with-google-football/</link>
       <pubDate>Sun, 07 Feb 2021 00:00:00 +1800</pubDate>
       
-      <guid>http://example.org/off-topic/getting-started-with-google-football/</guid>
+      <guid>https://aakash-ez.github.io/off-topic/getting-started-with-google-football/</guid>
       <description>Football (or Soccer) is the most popular sport on earth with over 3.572 billion people tuning in for the last world cup finals. It also is a unique AI problem due its continuous, multi-agent nature and a wide array of actions possible in every moment. Google Brain, a deep learning / artificial intelligence research team at Google, implemented a Football Environment for developers and researchers to experiment various Reinforcement learning models.</description>
     </item>
     
     <item>
       <title>Engineering Materials For Efficient Heat Dissipation In Aerospace</title>
-      <link>http://example.org/off-topic/heat-dissipation-in-aerospace/</link>
+      <link>https://aakash-ez.github.io/off-topic/heat-dissipation-in-aerospace/</link>
       <pubDate>Thu, 14 Jan 2021 00:00:00 +1800</pubDate>
       
-      <guid>http://example.org/off-topic/heat-dissipation-in-aerospace/</guid>
+      <guid>https://aakash-ez.github.io/off-topic/heat-dissipation-in-aerospace/</guid>
       <description>What Is Heat Dissipation? Transfer of energy from a more concentrated form (Hotter) to less concentrated form (Colder) simply is heat dissipation. It is an irreversible process and its always associated with an increase in entropy thus making this process entropically favorable.
 Importance Of Efficient Heat Dissipation Systems  For maintaining optimum working temperature To improves efficiency of the system To Increases the working life of the equipment And above all its required to ensure Safety  Figure 1.</description>
     </item>
     
     <item>
       <title>Chess using Python3</title>
-      <link>http://example.org/off-topic/chess-using-python3/</link>
+      <link>https://aakash-ez.github.io/off-topic/chess-using-python3/</link>
       <pubDate>Sun, 13 Dec 2020 00:00:00 +1800</pubDate>
       
-      <guid>http://example.org/off-topic/chess-using-python3/</guid>
+      <guid>https://aakash-ez.github.io/off-topic/chess-using-python3/</guid>
       <description>Chess is among the most popular board games on Earth, with a history of over thousands of years. It has also been one of the most widely studied games in the domain of AI, due to its strategic nature. This has lead to the development of many advanced chess engines which has the ability to even beat world champions (Deep Blue versus Garry Kasparov, 1997).
 Today, I want to discuss about a python library I found which could visualize chess boards, help identify the possible legal moves etc.</description>
     </item>

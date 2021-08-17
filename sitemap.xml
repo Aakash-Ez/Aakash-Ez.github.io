@@ -2,79 +2,79 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://example.org/</loc>
+    <loc>https://aakash-ez.github.io/</loc>
     <lastmod>2021-06-13T12:49:27+06:00</lastmod>
   </url><url>
-    <loc>http://example.org/portfolio/</loc>
+    <loc>https://aakash-ez.github.io/portfolio/</loc>
     <lastmod>2021-06-13T12:49:27+06:00</lastmod>
   </url><url>
-    <loc>http://example.org/portfolio/sergio-vqg/</loc>
+    <loc>https://aakash-ez.github.io/portfolio/sergio-vqg/</loc>
     <lastmod>2021-06-13T12:49:27+06:00</lastmod>
   </url><url>
-    <loc>http://example.org/blog/</loc>
+    <loc>https://aakash-ez.github.io/blog/</loc>
     <lastmod>2021-04-04T00:00:00+18:00</lastmod>
   </url><url>
-    <loc>http://example.org/blog/text-summarization-gensim/</loc>
+    <loc>https://aakash-ez.github.io/blog/text-summarization-gensim/</loc>
     <lastmod>2021-04-04T00:00:00+18:00</lastmod>
   </url><url>
-    <loc>http://example.org/blog/text-generation-rnn/</loc>
+    <loc>https://aakash-ez.github.io/blog/text-generation-rnn/</loc>
     <lastmod>2021-03-28T00:00:00+18:00</lastmod>
   </url><url>
-    <loc>http://example.org/blog/getting-started-with-rnns/</loc>
+    <loc>https://aakash-ez.github.io/blog/getting-started-with-rnns/</loc>
     <lastmod>2021-03-21T00:00:00+18:00</lastmod>
   </url><url>
-    <loc>http://example.org/blog/nb-nltk-sentiment-analysis/</loc>
+    <loc>https://aakash-ez.github.io/blog/nb-nltk-sentiment-analysis/</loc>
     <lastmod>2021-02-14T00:00:00+18:00</lastmod>
   </url><url>
-    <loc>http://example.org/off-topic/getting-started-with-google-football/</loc>
+    <loc>https://aakash-ez.github.io/off-topic/getting-started-with-google-football/</loc>
     <lastmod>2021-02-07T00:00:00+18:00</lastmod>
   </url><url>
-    <loc>http://example.org/off-topic/</loc>
+    <loc>https://aakash-ez.github.io/off-topic/</loc>
     <lastmod>2021-02-07T00:00:00+18:00</lastmod>
   </url><url>
-    <loc>http://example.org/blog/nlp-pos-tagging/</loc>
+    <loc>https://aakash-ez.github.io/blog/nlp-pos-tagging/</loc>
     <lastmod>2021-01-31T00:00:00+18:00</lastmod>
   </url><url>
-    <loc>http://example.org/blog/ocr-using-pytesseract/</loc>
+    <loc>https://aakash-ez.github.io/blog/ocr-using-pytesseract/</loc>
     <lastmod>2021-01-24T00:00:00+18:00</lastmod>
   </url><url>
-    <loc>http://example.org/blog/nlp-stemming-and-lemmatization/</loc>
+    <loc>https://aakash-ez.github.io/blog/nlp-stemming-and-lemmatization/</loc>
     <lastmod>2021-01-17T00:00:00+18:00</lastmod>
   </url><url>
-    <loc>http://example.org/off-topic/heat-dissipation-in-aerospace/</loc>
+    <loc>https://aakash-ez.github.io/off-topic/heat-dissipation-in-aerospace/</loc>
     <lastmod>2021-01-14T00:00:00+18:00</lastmod>
   </url><url>
-    <loc>http://example.org/blog/nlp-ambiguity/</loc>
+    <loc>https://aakash-ez.github.io/blog/nlp-ambiguity/</loc>
     <lastmod>2021-01-10T00:00:00+18:00</lastmod>
   </url><url>
-    <loc>http://example.org/blog/activation-function/</loc>
+    <loc>https://aakash-ez.github.io/blog/activation-function/</loc>
     <lastmod>2021-01-03T00:00:00+18:00</lastmod>
   </url><url>
-    <loc>http://example.org/blog/cnn-part-2/</loc>
+    <loc>https://aakash-ez.github.io/blog/cnn-part-2/</loc>
     <lastmod>2020-12-27T00:00:00+18:00</lastmod>
   </url><url>
-    <loc>http://example.org/blog/cnn-part-1/</loc>
+    <loc>https://aakash-ez.github.io/blog/cnn-part-1/</loc>
     <lastmod>2020-12-20T00:00:00+18:00</lastmod>
   </url><url>
-    <loc>http://example.org/off-topic/chess-using-python3/</loc>
+    <loc>https://aakash-ez.github.io/off-topic/chess-using-python3/</loc>
     <lastmod>2020-12-13T00:00:00+18:00</lastmod>
   </url><url>
-    <loc>http://example.org/blog/support-vector-machine-for-binary-classification/</loc>
+    <loc>https://aakash-ez.github.io/blog/support-vector-machine-for-binary-classification/</loc>
     <lastmod>2020-12-06T00:00:00+18:00</lastmod>
   </url><url>
-    <loc>http://example.org/blog/smile-detection-using-haar-cascade-classifier/</loc>
+    <loc>https://aakash-ez.github.io/blog/smile-detection-using-haar-cascade-classifier/</loc>
     <lastmod>2020-11-29T00:00:00+18:00</lastmod>
   </url><url>
-    <loc>http://example.org/portfolio/ana-sonnet/</loc>
+    <loc>https://aakash-ez.github.io/portfolio/ana-sonnet/</loc>
     <lastmod>2020-08-12T18:07:16+06:00</lastmod>
   </url><url>
-    <loc>http://example.org/portfolio/nfc-payment/</loc>
+    <loc>https://aakash-ez.github.io/portfolio/nfc-payment/</loc>
     <lastmod>2020-04-12T12:13:40+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://aakash-ez.github.io/categories/</loc>
   </url><url>
-    <loc>http://example.org/contact/</loc>
+    <loc>https://aakash-ez.github.io/contact/</loc>
   </url><url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://aakash-ez.github.io/tags/</loc>
   </url>
 </urlset>
