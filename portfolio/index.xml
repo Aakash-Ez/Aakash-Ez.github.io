@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Portfolios on AakEz</title>
+    <link>http://example.org/portfolio/</link>
+    <description>Recent content in Portfolios on AakEz</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 13 Jun 2021 12:49:27 +0600</lastBuildDate><atom:link href="http://example.org/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sergio - Visual Question Generator</title>
+      <link>http://example.org/portfolio/sergio-vqg/</link>
+      <pubDate>Sun, 13 Jun 2021 12:49:27 +0600</pubDate>
+      
+      <guid>http://example.org/portfolio/sergio-vqg/</guid>
+      <description>The objective of the project was to intergrate and test out our knowledge in Natural Language Processing and Computer Vision. The key idea behind the project was to create a Deep Learning model that can take an image as input and identify features or objects in the image and ask naturally occuring questions regarding it. For instance, when shown an image of food item, a natural can be &amp;lsquo;how does it taste&amp;rsquo; or &amp;lsquo;who made it&amp;rsquo;.</description>
+    </item>
+    
+    <item>
+      <title>Anastasia - Sonnet Generator</title>
+      <link>http://example.org/portfolio/ana-sonnet/</link>
+      <pubDate>Wed, 12 Aug 2020 18:07:16 +0600</pubDate>
+      
+      <guid>http://example.org/portfolio/ana-sonnet/</guid>
+      <description>The objective of the project was to intergrate and test out our knowledge in Natural Language Processing and Computer Vision. The key idea behind the project was to create a Deep Learning model that can take an image as input and identify features or objects in the image and ask naturally occuring questions regarding it. For instance, when shown an image of food item, a natural can be &amp;lsquo;how does it taste&amp;rsquo; or &amp;lsquo;who made it&amp;rsquo;.</description>
+    </item>
+    
+    <item>
+      <title>NFC Based Payment System</title>
+      <link>http://example.org/portfolio/nfc-payment/</link>
+      <pubDate>Sun, 12 Apr 2020 12:13:40 +0000</pubDate>
+      
+      <guid>http://example.org/portfolio/nfc-payment/</guid>
+      <description>The project can be divided into two parts, the hardware side of it and the software side. The hardware side was developed on top of Arduino Microcontroller with keypad for the shop employees to enter the amount and NFC Reader to identify each student based on the information stored in their identity card.
+On the software end, an application was developed with backend to enable students to login to their account and keep track of the transcation they had done and to add money to the virtual wallet for future transactions.</description>
+    </item>
+    
+  </channel>
+</rss>

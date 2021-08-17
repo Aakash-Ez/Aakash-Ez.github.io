@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>OCR using PyTesseract</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+  <!-- Slick Carousel -->
+  <link rel="stylesheet" href="http://example.org/plugins/slick/slick.css" />
+  <link rel="stylesheet" href="http://example.org/plugins/slick/slick-theme.css" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="http://example.org/plugins/font-awesome/css/font-awesome.min.css" />
+
+  <!-- Magnific Popup -->
+  <link rel="stylesheet" href="http://example.org/plugins/magnafic-popup/magnific-popup.css" />
+
+  <!-- Stylesheets -->
+  
+  <link href="http://example.org/scss/style.min.css" rel="stylesheet" />
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="http://example.org/images/favicon.ico" type="image/x-icon" />
+  <link rel="icon" href="http://example.org/images/favicon.png" type="image/x-icon" />
+  
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=YOUR%20GOOGLE%20ANALYTICS%20CODE"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'YOUR GOOGLE ANALYTICS CODE');
+  </script>
+  
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg fixed-top">
+  <div class="container">
+    <a href="http://example.org/" class="navbar-brand">
+      <img src="http://example.org/images/site-navigation/logo.png" alt="site-logo">
+    </a>
+    <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#navbarCollapse">
+      <span class="navbar-toggler-icon"></span>
+      <span class="navbar-toggler-icon"></span>
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+      <ul class="nav navbar-nav main-navigation my-0 mx-auto">
+        
+        
+        <li class="nav-item">
+          <a href="http://example.org/#home"
+            class="nav-link text-dark text-sm-center p-2 ">Home</a>
+        </li>
+        
+        <li class="nav-item">
+          <a href="http://example.org//off-topic"
+            class="nav-link text-dark text-sm-center p-2 ">Off Topic</a>
+        </li>
+        
+        <li class="nav-item">
+          <a href="http://example.org//blog"
+            class="nav-link text-dark text-sm-center p-2 ">Blog</a>
+        </li>
+        
+        <li class="nav-item">
+          <a href="http://example.org//contact"
+            class="nav-link text-dark text-sm-center p-2 ">Contact</a>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+  <div id="content">
+    
+
+<header class="breadCrumb">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 col-md-12 offset-lg-1 offset-md-0 text-center">
+        <h3 class="breadCrumb__title">OCR using PyTesseract</h3>
+        <nav aria-label="breadcrumb" class="d-flex justify-content-center">
+          <ol class="breadcrumb align-items-center">
+            <li class="breadcrumb-item"><a href=http://example.org/>Home</a></li>
+            <li class="breadcrumb-item"><a href=http://example.org/blog>All Post</a></li>
+            <li class="breadcrumb-item active">Aakash Ezhilan</li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="section singleBlog">
+  <div class="svg-img">
+      <img src=http://example.org/images/hero/figure-svg.svg alt="">
+  </div>
+  <div class="animate-shape">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 600">
+          <defs>
+              <linearGradient id="d" x1="0.929" y1="0.111" x2="0.263" y2="0.935" gradientUnits="objectBoundingBox">
+                  <stop offset="0" stop-color="#f1f6f9" />
+                  <stop offset="1" stop-color="#f1f6f9" stop-opacity="0" />
+              </linearGradient>
+          </defs>
+          <g data-name="blob-shape (3)">
+              <path class="blob" fill="url(#d)"
+                  d="M455.4 151.1c43.1 36.7 73.4 92.8 60.8 136.3-12.7 43.5-68.1 74.4-111.3 119.4-43.1 45-74 104.1-109.8 109-35.9 5-76.7-44.2-111.8-89.2-35.2-45-64.7-85.8-70.8-132.6-6-46.8 11.6-99.6 46.7-136.3 35.2-36.6 88-57.2 142.4-58.8 54.5-1.7 110.6 15.6 153.8 52.2z" />
+          </g>
+      </svg>
+  </div>
+  <div class="animate-pattern">
+      <img src=http://example.org/images/service/background-pattern.svg alt="background-shape">
+  </div>
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-12">
+              <div class="singleBlog__feature">
+                  <img src=http://example.org/images/blog/tesseract/featured.png alt="feature-image">
+              </div>
+          </div>
+      </div>
+      <div class="row mt-5">
+          <div class="col-lg-12">
+              <div class="singleBlog__content">
+                  <p>Optical Character Recognition, abbreviated as OCR has become a very import aspect of industry, as businesses have been ending towards automation in recent times. OCR is the process by which the the computer identifies and understand the words that are present in an image or a scanned document.</p>
+<div align="center">
+    <img src="http://example.org/images/blog/tesseract/image-1.jpg" style="max-width: 100%;"/>
+    <i><div style="text-align: center">Figure 1. Google Translate using OCR source: Amplitude Research.</div></i><br>
+</div>
+<p>Let us consider the application in Figure 1. While the focus of the application is to perform translation between two languages, it is enhanced through the use of OCR, such that the users can get the translation merely by viewing the image through their camera. In today’s post we will be performing OCR using PyTesseract Library.</p>
+<h3 id="installing-tesseract">Installing Tesseract</h3>
+<p>Before proceeding with the implementation, we must first make sure that our systems have <em>Tesseract</em> installed. The instructions discussed in this post are based on Windows OS however you can find the equivalent instructions for other OS on the internet.</p>
+<p>Apart from installing the PyTesseract Library, we also require the Tesseract Engine in our system. For windows the installer is available <a href="https://github.com/UB-Mannheim/tesseract/wiki">here</a>. Once the engine is installed, make sure that <em>eng.traineddata</em> is available in the <em>tessdata</em> folder. This file acts as the trained data for identifying words in English Language. Similarly, trained data for various files is available <a href="https://tesseract-ocr.github.io/tessdoc/Data-Files.html">here</a>. For the execution of today’s code you will require the trained data files for Hindi and Tamil.</p>
+<p>Finally, we must make sure that PyTesseract Library is available in our python environment. If not already installed, you can do so using the below command</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">pip install pytesseract
+</code></pre></div><h3 id="pytesseract-implementation">PyTesseract Implementation</h3>
+<div align="center">
+    <img src="http://example.org/images/blog/tesseract/image-2.png" style="border: 1px solid #555; max-width: 100%;"/>
+    <i><div style="text-align: center">Figure 2. Shakespeare Poem as an Image source: Pinterest.</div></i><br>
+</div>
+<p>Let us consider the image in Figure 2. It contains a famous poem of William Shakespeare, however it is not possible to process the text present in it. This is where OCR comes in. Our objective is to identify the words present in this image and will be doing that using the pre-trained tesseract engine.</p>
+<p>Firstly, we must import the necessary libraries. We will be using OpenCV library to process the image and then PyTesseract to identify the characters present in the image. We will be also needing Pandas and Numpy libraries to process the information retrieved using PyTesseract. Finally, we will need to mention the location of our tesseract engine so that our python environment knows where to find Tesseract Engine and avoid <em>TesseractNotFoundError</em> (For Windows, Path may vary).</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py"><span style="color:#f92672">import</span> cv2
+<span style="color:#f92672">import</span> pytesseract
+<span style="color:#f92672">import</span> pandas <span style="color:#66d9ef">as</span> pd
+<span style="color:#f92672">import</span> numpy <span style="color:#66d9ef">as</span> np
+pytesseract<span style="color:#f92672">.</span>pytesseract<span style="color:#f92672">.</span>tesseract_cmd <span style="color:#f92672">=</span> <span style="color:#e6db74">r</span><span style="color:#e6db74">&#39;C:\Program Files\Tesseract-OCR\tesseract.exe&#39;</span>
+</code></pre></div><p>Next we need to input the image and preprocess it. We are going to input the image as grayscale and apply Adaptive Gaussian Threshold to distinguish between the background and foreground. The adaptive gaussian threshold uses the weighted sum of neighbourhood values where weights are a gaussian window.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">filepath <span style="color:#f92672">=</span> input(<span style="color:#e6db74">&#34;Enter the filepath: &#34;</span>)
+filename <span style="color:#f92672">=</span> input(<span style="color:#e6db74">&#34;Enter the filename: &#34;</span>)
+image <span style="color:#f92672">=</span> cv2<span style="color:#f92672">.</span>imread(filepath<span style="color:#f92672">+</span>filename,<span style="color:#ae81ff">0</span>)
+input_img <span style="color:#f92672">=</span> cv2<span style="color:#f92672">.</span>adaptiveThreshold(image,<span style="color:#ae81ff">255</span>,cv2<span style="color:#f92672">.</span>ADAPTIVE_THRESH_GAUSSIAN_C, cv2<span style="color:#f92672">.</span>THRESH_BINARY,<span style="color:#ae81ff">5</span>,<span style="color:#ae81ff">5</span>)
+cv2<span style="color:#f92672">.</span>imshow(<span style="color:#e6db74">&#39;Adaptive Gaussian Threshold Image&#39;</span>, input_img)
+cv2<span style="color:#f92672">.</span>waitKey(<span style="color:#ae81ff">0</span>)
+cv2<span style="color:#f92672">.</span>destroyAllWindows()
+</code></pre></div><div align="center">
+    <img src="http://example.org/images/blog/tesseract/image-3.png" style="border: 1px solid #555; max-width: 100%;"/>
+    <i><div style="text-align: center">Figure 3. Output image after applying Gaussian Threshold.</div></i><br>
+</div>
+<p>Now we will use the tesseract engine to identify the words present in our input image. Tesseract can work on various configurations which is determined based on the use case. In the below code, we are setting the following configurations:</p>
+<ul>
+<li><strong>OEM (OCR Engine Mode)</strong> as default (value of 3)</li>
+<li><strong>PSM (Page Segmentation Mode)</strong> as 1 (Automatic page segmentation with OSD).</li>
+<li><strong>Language</strong> as English
+After this, we are removing all the predictions that do not contain any words in them (Spaces or empty strings).</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">df <span style="color:#f92672">=</span> pytesseract<span style="color:#f92672">.</span>image_to_data(input_img, output_type<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;data.frame&#34;</span>,config<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;--psm 1 --oem 3&#39;</span>,lang<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;eng&#39;</span>)
+df <span style="color:#f92672">=</span> df[df<span style="color:#f92672">.</span>conf <span style="color:#f92672">!=</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>]
+df <span style="color:#f92672">=</span> df<span style="color:#f92672">.</span>replace(<span style="color:#e6db74">r</span><span style="color:#e6db74">&#39;^\s*$&#39;</span>, np<span style="color:#f92672">.</span>nan, regex<span style="color:#f92672">=</span><span style="color:#66d9ef">True</span>)<span style="color:#f92672">.</span>dropna()
+details <span style="color:#f92672">=</span> df<span style="color:#f92672">.</span>to_dict()
+print(details<span style="color:#f92672">.</span>keys())
+print(details[<span style="color:#e6db74">&#39;text&#39;</span>])
+</code></pre></div><p>Finally, we will draw bounding boxes around the various words that we identified in the given image. We can also retrieve the words from the ‘text’ column in our output dataframe.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">sequence <span style="color:#f92672">=</span> details[<span style="color:#e6db74">&#39;text&#39;</span>]<span style="color:#f92672">.</span>keys()
+<span style="color:#66d9ef">for</span> key <span style="color:#f92672">in</span> sequence:
+    <span style="color:#66d9ef">if</span> int(details[<span style="color:#e6db74">&#39;conf&#39;</span>][key]) <span style="color:#f92672">&gt;</span><span style="color:#ae81ff">20</span>:
+        (x, y, w, h) <span style="color:#f92672">=</span> (details[<span style="color:#e6db74">&#39;left&#39;</span>][key], details[<span style="color:#e6db74">&#39;top&#39;</span>][key], details[<span style="color:#e6db74">&#39;width&#39;</span>][key],  details[<span style="color:#e6db74">&#39;height&#39;</span>][key])
+        img <span style="color:#f92672">=</span> cv2<span style="color:#f92672">.</span>rectangle(image, (x, y), (x <span style="color:#f92672">+</span> w, y <span style="color:#f92672">+</span> h), (<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">255</span>), <span style="color:#ae81ff">2</span>)
+cv2<span style="color:#f92672">.</span>imshow(<span style="color:#e6db74">&#39;captured text&#39;</span>, img)
+cv2<span style="color:#f92672">.</span>waitKey(<span style="color:#ae81ff">0</span>)
+cv2<span style="color:#f92672">.</span>destroyAllWindows()
+</code></pre></div><div align="center">
+    <img src="http://example.org/images/blog/tesseract/image-4.png" style="border: 1px solid #555; max-width: 100%;"/>
+    <i><div style="text-align: center">Figure 4. OCR on the given input image.</div></i><br>
+</div>
+<h3 id="conclusion">Conclusion</h3>
+<p>In today’s post we discussed the PyTesseract Library and how it can be used to perform OCR Operations on Images. We can also perform similar operations on various languages facilitated by Tesseract Engine. Below are two such examples in Hindi and Tamil.</p>
+<p><div align="center">
+    <img src="http://example.org/images/blog/tesseract/image-5.png" style="max-width: 100%;"/>
+    <i><div style="text-align: center"></div></i><br>
+</div>
+<div align="center">
+    <img src="http://example.org/images/blog/tesseract/image-6.png" style="max-width: 100%;"/>
+    <i><div style="text-align: center"></div></i><br>
+</div>
+<div align="center">
+    <img src="http://example.org/images/blog/tesseract/image-7.png" style="max-width: 100%;"/>
+    <i><div style="text-align: center"></div></i><br>
+</div></p>
+
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+
+  </div>
+  <section class="footer" id="contact">
+	<div class="footer__background_shape">
+		<svg viewBox="0 0 1920 79">
+			<path d="M0 0h1920v79L0 0z" data-name="Path 1450" />
+		</svg>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="footer__cta">
+					<div class="shape-1">
+						<svg xmlns="http://www.w3.org/2000/svg" width="357" height="315.029" viewBox="0 0 357 315.029">
+							<path data-name="Path 1449"
+								d="M76.1-157.222C91.746-135.8 87.2-94.273 99.993-61.945c12.7 32.328 42.661 55.459 39.248 73.282-3.318 17.823-40.007 30.337-65.6 43.325-25.5 12.988-39.912 26.545-60.01 42.566-20.1 16.116-46.074 34.6-63.328 27.682-17.349-6.921-25.976-39.153-59.915-59.82s-93.1-29.768-105.325-51.478 22.373-56.028 43.609-93.949c21.331-37.921 29.2-79.35 53.563-96.793 24.459-17.444 65.414-10.9 103.9-6.921 38.396 3.982 74.326 5.404 89.965 26.829z"
+								transform="translate(217.489 188.626)" />
+						</svg>
+					</div>
+					<div class="shape-2">
+						<svg xmlns="http://www.w3.org/2000/svg" width="357" height="315.029" viewBox="0 0 357 315.029">
+							<path data-name="Path 1449"
+								d="M76.1-157.222C91.746-135.8 87.2-94.273 99.993-61.945c12.7 32.328 42.661 55.459 39.248 73.282-3.318 17.823-40.007 30.337-65.6 43.325-25.5 12.988-39.912 26.545-60.01 42.566-20.1 16.116-46.074 34.6-63.328 27.682-17.349-6.921-25.976-39.153-59.915-59.82s-93.1-29.768-105.325-51.478 22.373-56.028 43.609-93.949c21.331-37.921 29.2-79.35 53.563-96.793 24.459-17.444 65.414-10.9 103.9-6.921 38.396 3.982 74.326 5.404 89.965 26.829z"
+								transform="translate(217.489 188.626)" />
+						</svg>
+					</div>
+					<div class="text-light footer__cta_content">
+						<span>Contact me</span>
+						<h2 class="mb-0">Let’s Start a Project</h2>
+					</div>
+					<div class="footer__cta_action">
+						<a class="btn btn-light btn-zoom" href="http://example.org/contact">Get in
+							touch</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row footer__widget">
+			<div class="col-lg-4">
+				<div class="footer__widget_logo mb-5">
+					<img src="http://example.org/images/contact/widget-logo.png" alt="widget-logo">
+				</div>
+			</div>
+			
+			<div class="col-lg-4">
+				<div class="text-light footer__widget_address mb-5">
+					<h4 class="base-font">Address</h4>
+					
+					<ul class="fa-ul small">
+						<li class="mb-2"><a class="text-light" href="tel:&#43;%2891%29%20962%20936%205421"><span class="fa-li"><i
+										class="fa fa-phone"></i></span>&#43;(91) 962 936 5421</a></li>
+						<li class="mb-2"><a class="text-light" href="mailto:aakash.ezhilan@gmail.com"><span class="fa-li"><i
+										class="fa fa-envelope"></i></span>aakash.ezhilan@gmail.com</a></li>
+						<li class="mb-2">
+							<span class="fa-li"><i class="fa fa-map-marker"></i></span>Chennai, Tamil Nadu, India. Pincode: 603103</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="row footer__footer">
+			<div class="col-lg-6">
+				<div class="footer__footer_copy text-light">
+					<p>Made on top of Portio Template</p>
+				</div>
+			</div>
+			<div class="col-lg-6">
+				<div class="footer__footer_social">
+					<ul class="unstyle-list">
+						
+						
+						<li class="d-inline-block mx-2"><a class="text-light" target="_blank" href="https://www.facebook.com/aakash.ezhilan"><i
+									class="fa fa-facebook-official"></i></a>
+						</li>
+						
+						<li class="d-inline-block mx-2"><a class="text-light" target="_blank" href="https://www.linkedin.com/in/aakash-ez"><i
+									class="fa fa-linkedin-square"></i></a>
+						</li>
+						
+						<li class="d-inline-block mx-2"><a class="text-light" target="_blank" href="https://github.com/Aakash-Ez/"><i
+									class="fa fa-github-square"></i></a>
+						</li>
+						
+						<li class="d-inline-block mx-2"><a class="text-light" target="_blank" href="https://twitter.com/aakash_ezhilan"><i
+									class="fa fa-twitter-square"></i></a>
+						</li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR%20GOOGLE%20MAP%20API&libraries=geometry"></script>
+<script src="http://example.org/plugins/jQuery/jquery.min.js"></script>
+<script src="http://example.org/plugins/bootstrap/bootstrap.min.js"></script>
+<script src="http://example.org/plugins/slick/slick.min.js"></script>
+<script src="http://example.org/plugins/waypoint/jquery.waypoints.min.js"></script>
+<script src="http://example.org/plugins/magnafic-popup/jquery.magnific-popup.min.js"></script>
+<script src="http://example.org/plugins/tweenmax/TweenMax.min.js"></script>
+<script src="http://example.org/plugins/imagesloaded/imagesloaded.min.js"></script>
+<script src="http://example.org/plugins/masonry/masonry.min.js"></script>
+
+<script src="http://example.org/js/form-handler.min.js"></script>
+
+<script src="http://example.org/js/script.min.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AakEz</title>
+    <link>http://example.org/</link>
+    <description>Recent content on AakEz</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 13 Jun 2021 12:49:27 +0600</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sergio - Visual Question Generator</title>
+      <link>http://example.org/portfolio/sergio-vqg/</link>
+      <pubDate>Sun, 13 Jun 2021 12:49:27 +0600</pubDate>
+      
+      <guid>http://example.org/portfolio/sergio-vqg/</guid>
+      <description>The objective of the project was to intergrate and test out our knowledge in Natural Language Processing and Computer Vision. The key idea behind the project was to create a Deep Learning model that can take an image as input and identify features or objects in the image and ask naturally occuring questions regarding it. For instance, when shown an image of food item, a natural can be &amp;lsquo;how does it taste&amp;rsquo; or &amp;lsquo;who made it&amp;rsquo;.</description>
+    </item>
+    
+    <item>
+      <title>Text Summarization Using Gensim</title>
+      <link>http://example.org/blog/text-summarization-gensim/</link>
+      <pubDate>Sun, 04 Apr 2021 00:00:00 +1800</pubDate>
+      
+      <guid>http://example.org/blog/text-summarization-gensim/</guid>
+      <description>In today’s blogpost, we are going to be discussing about text summarization using the Gensim Library. Text summarization is a very popular task in NLP and plays a crucial role in modern times, due to the abundance of information on web. The intention of text summarization is to represent the large information in a concise manner. The applications on text summarization include media monitoring, video scripting, contract analysis, newsletter summarization etc.</description>
+    </item>
+    
+    <item>
+      <title>Generating text using CharRNN</title>
+      <link>http://example.org/blog/text-generation-rnn/</link>
+      <pubDate>Sun, 28 Mar 2021 00:00:00 +1800</pubDate>
+      
+      <guid>http://example.org/blog/text-generation-rnn/</guid>
+      <description>In the last week’s blogpost we discussed about Recurrent Neural Networks and saw how it can be used in tweet classification. In today’s post we are going to continue with RNNs and look at how a simple architecture can generate texts.
+CharRNN stands for character RNN, where the network is used to predict the next character given a sequence of characters preceding it. This methodology can be used to generate texts given a starting sequence.</description>
+    </item>
+    
+    <item>
+      <title>Getting Started with RNNs</title>
+      <link>http://example.org/blog/getting-started-with-rnns/</link>
+      <pubDate>Sun, 21 Mar 2021 00:00:00 +1800</pubDate>
+      
+      <guid>http://example.org/blog/getting-started-with-rnns/</guid>
+      <description>Many real life scenarios generate sequential data, where the details of the preceding states play an important role in determining the outcome of the current state. Examples of sequential data are DNA Sequence, Text Documents, Stock prices etc. In such cases, the output of a particular state, will not only depend on the input provided but also the previous states encountered by our model.
+Let us consider the example of Natural Language Translation.</description>
+    </item>
+    
+    <item>
+      <title>Sentiment Analysis using NLTK NB Classifier</title>
+      <link>http://example.org/blog/nb-nltk-sentiment-analysis/</link>
+      <pubDate>Sun, 14 Feb 2021 00:00:00 +1800</pubDate>
+      
+      <guid>http://example.org/blog/nb-nltk-sentiment-analysis/</guid>
+      <description>Sentiment Analysis is one of the most prominent application of Natural Language Processing, as it helps us understand the public opinion on a given topic. This insight can be used by companies to identify possible issues and resolve them to improve customer experience. In today’s blogpost we are going to implement a simple Naive Bayes Classifier using NLTK library to analyze tweets.
+We are going to use twitter samples corpus, which contains 5000 positive and negative labelled tweets.</description>
+    </item>
+    
+    <item>
+      <title>Getting Started with Google Football</title>
+      <link>http://example.org/off-topic/getting-started-with-google-football/</link>
+      <pubDate>Sun, 07 Feb 2021 00:00:00 +1800</pubDate>
+      
+      <guid>http://example.org/off-topic/getting-started-with-google-football/</guid>
+      <description>Football (or Soccer) is the most popular sport on earth with over 3.572 billion people tuning in for the last world cup finals. It also is a unique AI problem due its continuous, multi-agent nature and a wide array of actions possible in every moment. Google Brain, a deep learning / artificial intelligence research team at Google, implemented a Football Environment for developers and researchers to experiment various Reinforcement learning models.</description>
+    </item>
+    
+    <item>
+      <title>NLP: Part-Of-Speech Tagging</title>
+      <link>http://example.org/blog/nlp-pos-tagging/</link>
+      <pubDate>Sun, 31 Jan 2021 00:00:00 +1800</pubDate>
+      
+      <guid>http://example.org/blog/nlp-pos-tagging/</guid>
+      <description>When we try to understand the meaning of a sentence, it is important for us to understand the syntactic relationship between the various words present in the sentence. Sometimes, these relationship between words, can determine the meaning of an ambiguous word. For instance, let us consider the word ‘Like’ in the following two sentences
+ I like you. I am like you.  In the first sentence, the word ‘like’ is a verb of positive sentiment, whereas in the second sentence ‘like’ acts as an preposition and coveys a different meaning.</description>
+    </item>
+    
+    <item>
+      <title>OCR using PyTesseract</title>
+      <link>http://example.org/blog/ocr-using-pytesseract/</link>
+      <pubDate>Sun, 24 Jan 2021 00:00:00 +1800</pubDate>
+      
+      <guid>http://example.org/blog/ocr-using-pytesseract/</guid>
+      <description>Optical Character Recognition, abbreviated as OCR has become a very import aspect of industry, as businesses have been ending towards automation in recent times. OCR is the process by which the the computer identifies and understand the words that are present in an image or a scanned document.
+Figure 1. Google Translate using OCR source: Amplitude Research.
+ Let us consider the application in Figure 1. While the focus of the application is to perform translation between two languages, it is enhanced through the use of OCR, such that the users can get the translation merely by viewing the image through their camera.</description>
+    </item>
+    
+    <item>
+      <title>NLP: Stemming and Lemmatization</title>
+      <link>http://example.org/blog/nlp-stemming-and-lemmatization/</link>
+      <pubDate>Sun, 17 Jan 2021 00:00:00 +1800</pubDate>
+      
+      <guid>http://example.org/blog/nlp-stemming-and-lemmatization/</guid>
+      <description>In last week’s post we discussed about the ambiguities that can be present in a sentence. Today, we are going to be discussing about steps that can be taken while processing a sentence for getting better results. To get started let us consider the following sentences as example:
+“She eats an apple everyday”
+ “He is eating with us tonight”
+ The words “eats” and “eating” have been used in the above sentences.</description>
+    </item>
+    
+    <item>
+      <title>Engineering Materials For Efficient Heat Dissipation In Aerospace</title>
+      <link>http://example.org/off-topic/heat-dissipation-in-aerospace/</link>
+      <pubDate>Thu, 14 Jan 2021 00:00:00 +1800</pubDate>
+      
+      <guid>http://example.org/off-topic/heat-dissipation-in-aerospace/</guid>
+      <description>What Is Heat Dissipation? Transfer of energy from a more concentrated form (Hotter) to less concentrated form (Colder) simply is heat dissipation. It is an irreversible process and its always associated with an increase in entropy thus making this process entropically favorable.
+Importance Of Efficient Heat Dissipation Systems  For maintaining optimum working temperature To improves efficiency of the system To Increases the working life of the equipment And above all its required to ensure Safety  Figure 1.</description>
+    </item>
+    
+    <item>
+      <title>NLP: Identifying Ambiguities in Sentence</title>
+      <link>http://example.org/blog/nlp-ambiguity/</link>
+      <pubDate>Sun, 10 Jan 2021 00:00:00 +1800</pubDate>
+      
+      <guid>http://example.org/blog/nlp-ambiguity/</guid>
+      <description>Oxford Dictionary defines Ambiguity as ‘a word or statement that can be understood in more than one way’. Ambiguities aren’t common in our speech, often understood based on the context of the phrase. However when we are parsing a sentence in a computer, ambiguities can occur which might seem obvious to humane. In today’s post we will discussing these types of Ambiguities that occur in a sentence.
+Lexical Ambiguity Lexical Ambiguities are single word ambiguity, where the word can be treated as different part-of-speech tag (noun, pronoun etc.</description>
+    </item>
+    
+    <item>
+      <title>Activation Function</title>
+      <link>http://example.org/blog/activation-function/</link>
+      <pubDate>Sun, 03 Jan 2021 00:00:00 +1800</pubDate>
+      
+      <guid>http://example.org/blog/activation-function/</guid>
+      <description>Activation functions play a crucial role in Artificial Neural Networks as they determine the nature of the output in each layer of our model. Using the wrong kind of activation function can hinder our training and lead to awful models. In this post, we are going to discuss some of the common activation functions.
+Sigmoid Activation Function Sigmoid function is one of the most commonly used activation function in neural network, especially when the output had be between 0 to 1, like in case of probabilities.</description>
+    </item>
+    
+    <item>
+      <title>Part II: Image Classification Using CNNs</title>
+      <link>http://example.org/blog/cnn-part-2/</link>
+      <pubDate>Sun, 27 Dec 2020 00:00:00 +1800</pubDate>
+      
+      <guid>http://example.org/blog/cnn-part-2/</guid>
+      <description>In the last week’s post we discussed the theoretical aspects of Convolution Operation. Today we are going to discuss the need for convolutional neural networks and its implementation for classification of fashionMNIST dataset.
+Need for CNNs A normal Artificial Neural Network architecture often fails when dealing with Image based dataset mainly because of the humongous amount of parameters required, to even form a shallow neural network.
+Let us consider an example where we have a dataset with images of dimension 100x100x3 to be classified as dog or not dog.</description>
+    </item>
+    
+    <item>
+      <title>Part I: Image Classification Using CNNs</title>
+      <link>http://example.org/blog/cnn-part-1/</link>
+      <pubDate>Sun, 20 Dec 2020 00:00:00 +1800</pubDate>
+      
+      <guid>http://example.org/blog/cnn-part-1/</guid>
+      <description>Images and other media content are becoming a predominant part of data in 21st century due to the rise of smartphones and the ease at which pictures can be taken nowadays. Images are also becoming common in other domains such as medical, engineering etc. Therefore it becomes important for us to understand the nature of these digital images and how to address them in a deep learning domain.
+Nature of Digital Images Digital Images can often be described as mere rectangular collection of pixels.</description>
+    </item>
+    
+    <item>
+      <title>Chess using Python3</title>
+      <link>http://example.org/off-topic/chess-using-python3/</link>
+      <pubDate>Sun, 13 Dec 2020 00:00:00 +1800</pubDate>
+      
+      <guid>http://example.org/off-topic/chess-using-python3/</guid>
+      <description>Chess is among the most popular board games on Earth, with a history of over thousands of years. It has also been one of the most widely studied games in the domain of AI, due to its strategic nature. This has lead to the development of many advanced chess engines which has the ability to even beat world champions (Deep Blue versus Garry Kasparov, 1997).
+Today, I want to discuss about a python library I found which could visualize chess boards, help identify the possible legal moves etc.</description>
+    </item>
+    
+    <item>
+      <title>Support Vector Machine for Binary Classification</title>
+      <link>http://example.org/blog/support-vector-machine-for-binary-classification/</link>
+      <pubDate>Sun, 06 Dec 2020 00:00:00 +1800</pubDate>
+      
+      <guid>http://example.org/blog/support-vector-machine-for-binary-classification/</guid>
+      <description>Classification is one of the most fundamental and intuitive things that we humans do, often without even realizing it.
+“Will that t-shirt look good on me or not? Is it going to rain or not?”
+The human brain is naturally tuned to make such decisions however, replicating it in a computer system is not as simple. In this blogpost, we are going to talk about Support Vector Machines and how they can be used for Binary Classification of data.</description>
+    </item>
+    
+    <item>
+      <title>Smile detection using Haar Cascade Classifier</title>
+      <link>http://example.org/blog/smile-detection-using-haar-cascade-classifier/</link>
+      <pubDate>Sun, 29 Nov 2020 00:00:00 +1800</pubDate>
+      
+      <guid>http://example.org/blog/smile-detection-using-haar-cascade-classifier/</guid>
+      <description>Face detection is one of the most popular application of computer vision, with even the modern smartphones having face recognition based locking system. It also acts as a stepping stone to enter the domain of computer vision, which has been revolutionizing various fields from surgical procedures to self driving cars.
+One of the earliest ideas behind face detection was proposed by Viola and Jones in their paper Rapid object detection using a boosted cascade of simple features, where they proposed the usage of haar-like features to determine whether a given image contains human face and if so, where.</description>
+    </item>
+    
+    <item>
+      <title>Anastasia - Sonnet Generator</title>
+      <link>http://example.org/portfolio/ana-sonnet/</link>
+      <pubDate>Wed, 12 Aug 2020 18:07:16 +0600</pubDate>
+      
+      <guid>http://example.org/portfolio/ana-sonnet/</guid>
+      <description>The objective of the project was to intergrate and test out our knowledge in Natural Language Processing and Computer Vision. The key idea behind the project was to create a Deep Learning model that can take an image as input and identify features or objects in the image and ask naturally occuring questions regarding it. For instance, when shown an image of food item, a natural can be &amp;lsquo;how does it taste&amp;rsquo; or &amp;lsquo;who made it&amp;rsquo;.</description>
+    </item>
+    
+    <item>
+      <title>NFC Based Payment System</title>
+      <link>http://example.org/portfolio/nfc-payment/</link>
+      <pubDate>Sun, 12 Apr 2020 12:13:40 +0000</pubDate>
+      
+      <guid>http://example.org/portfolio/nfc-payment/</guid>
+      <description>The project can be divided into two parts, the hardware side of it and the software side. The hardware side was developed on top of Arduino Microcontroller with keypad for the shop employees to enter the amount and NFC Reader to identify each student based on the information stored in their identity card.
+On the software end, an application was developed with backend to enable students to login to their account and keep track of the transcation they had done and to add money to the virtual wallet for future transactions.</description>
+    </item>
+    
+  </channel>
+</rss>

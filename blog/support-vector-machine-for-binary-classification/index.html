@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Support Vector Machine for Binary Classification</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+  <!-- Slick Carousel -->
+  <link rel="stylesheet" href="http://example.org/plugins/slick/slick.css" />
+  <link rel="stylesheet" href="http://example.org/plugins/slick/slick-theme.css" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="http://example.org/plugins/font-awesome/css/font-awesome.min.css" />
+
+  <!-- Magnific Popup -->
+  <link rel="stylesheet" href="http://example.org/plugins/magnafic-popup/magnific-popup.css" />
+
+  <!-- Stylesheets -->
+  
+  <link href="http://example.org/scss/style.min.css" rel="stylesheet" />
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="http://example.org/images/favicon.ico" type="image/x-icon" />
+  <link rel="icon" href="http://example.org/images/favicon.png" type="image/x-icon" />
+  
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=YOUR%20GOOGLE%20ANALYTICS%20CODE"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'YOUR GOOGLE ANALYTICS CODE');
+  </script>
+  
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg fixed-top">
+  <div class="container">
+    <a href="http://example.org/" class="navbar-brand">
+      <img src="http://example.org/images/site-navigation/logo.png" alt="site-logo">
+    </a>
+    <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#navbarCollapse">
+      <span class="navbar-toggler-icon"></span>
+      <span class="navbar-toggler-icon"></span>
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+      <ul class="nav navbar-nav main-navigation my-0 mx-auto">
+        
+        
+        <li class="nav-item">
+          <a href="http://example.org/#home"
+            class="nav-link text-dark text-sm-center p-2 ">Home</a>
+        </li>
+        
+        <li class="nav-item">
+          <a href="http://example.org//off-topic"
+            class="nav-link text-dark text-sm-center p-2 ">Off Topic</a>
+        </li>
+        
+        <li class="nav-item">
+          <a href="http://example.org//blog"
+            class="nav-link text-dark text-sm-center p-2 ">Blog</a>
+        </li>
+        
+        <li class="nav-item">
+          <a href="http://example.org//contact"
+            class="nav-link text-dark text-sm-center p-2 ">Contact</a>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+  <div id="content">
+    
+
+<header class="breadCrumb">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 col-md-12 offset-lg-1 offset-md-0 text-center">
+        <h3 class="breadCrumb__title">Support Vector Machine for Binary Classification</h3>
+        <nav aria-label="breadcrumb" class="d-flex justify-content-center">
+          <ol class="breadcrumb align-items-center">
+            <li class="breadcrumb-item"><a href=http://example.org/>Home</a></li>
+            <li class="breadcrumb-item"><a href=http://example.org/blog>All Post</a></li>
+            <li class="breadcrumb-item active">Aakash Ezhilan</li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="section singleBlog">
+  <div class="svg-img">
+      <img src=http://example.org/images/hero/figure-svg.svg alt="">
+  </div>
+  <div class="animate-shape">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 600">
+          <defs>
+              <linearGradient id="d" x1="0.929" y1="0.111" x2="0.263" y2="0.935" gradientUnits="objectBoundingBox">
+                  <stop offset="0" stop-color="#f1f6f9" />
+                  <stop offset="1" stop-color="#f1f6f9" stop-opacity="0" />
+              </linearGradient>
+          </defs>
+          <g data-name="blob-shape (3)">
+              <path class="blob" fill="url(#d)"
+                  d="M455.4 151.1c43.1 36.7 73.4 92.8 60.8 136.3-12.7 43.5-68.1 74.4-111.3 119.4-43.1 45-74 104.1-109.8 109-35.9 5-76.7-44.2-111.8-89.2-35.2-45-64.7-85.8-70.8-132.6-6-46.8 11.6-99.6 46.7-136.3 35.2-36.6 88-57.2 142.4-58.8 54.5-1.7 110.6 15.6 153.8 52.2z" />
+          </g>
+      </svg>
+  </div>
+  <div class="animate-pattern">
+      <img src=http://example.org/images/service/background-pattern.svg alt="background-shape">
+  </div>
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-12">
+              <div class="singleBlog__feature">
+                  <img src=http://example.org/images/blog/SVM-BC/featured.png alt="feature-image">
+              </div>
+          </div>
+      </div>
+      <div class="row mt-5">
+          <div class="col-lg-12">
+              <div class="singleBlog__content">
+                  <p>Classification is one of the most fundamental and intuitive things that we humans do, often without even realizing it.</p>
+<p><em>“Will that t-shirt look good on me or not? Is it going to rain or not?”</em></p>
+<p>The human brain is naturally tuned to make such decisions however, replicating it in a computer system is not as simple. In this blogpost, we are going to talk about Support Vector Machines and how they can be used for Binary Classification of data.</p>
+<div align="center">
+    <img src="http://example.org/images/blog/SVM-BC/image-1.png" style="max-width: 100%;"/>
+    <i><div style="text-align: center">Figure 1. In the above image we have datapoints belonging to two colors; blue and orange.</div></i><br>
+</div>
+<p>In Figure 1, we can clearly classify the points into blue or orange. Anything that is within then circle of radius 1 is going to be blue and those outside it are likely to be orange. When we encounter a new point, we can still determine accurately which color it will belong to. Point (1,-2) is likely to be orange in color where (0.5,0.5) is likely to be blue.</p>
+<p>When we are trying to train a model to do this classification for us, our objective will be to make sure it learns that plane which separates the two data most efficiently. This is where Support Vector Machines (SVM) come in.</p>
+<hr>
+<p>In SVM we define the input data as n-dimensional vectors, where n is the number of features present. Let’s us consider a dataset where we have 2 features. We will represent each data item as a point in 2D plane (similar to figure 1). Now we perform classification by finding a hyperplane (a subspace of dimension n-1) which efficiently separates the classes.</p>
+<div align="center">
+    <img src="http://example.org/images/blog/SVM-BC/image-2.png" style="max-width: 100%;"/>
+    <i><div style="text-align: center">Figure 2. Hyperplane separating two different types of data.</div></i><br>
+</div>
+<p>In Figure 2, we can see hyperplanes (lines in this case) separating the two classes of data we have. While the dotted lines are able to separate them correctly, the distance (margin) between them and data points of classes is uneven, it is closer to one class than the other. The continuous line between them however is optimal as the minimum distance between data points of both classes and the separating line is maximum.</p>
+<p>SVM identifies such optimal hyperplane which can separate the classes optimally. However will a linear hyperplane be able to separate the distribution in Figure 1? The answer is no, because the distribution is circular in nature and hence requires a circular separator. In this particular case it will be circle with equation x2 + y2 ≈ 1.</p>
+<p>A method to solve such problem can be to represent the data as r and θ, where the angle with respect to x-axis is θ and the radius is r. Using such representation we can separate the data using a linear separation (as shown in Figure 3). Such transformation of data items to aid the classification is defined by kernels associated with the SVM.</p>
+<div align="center">
+    <img src="http://example.org/images/blog/SVM-BC/image-3.png" style="max-width: 100%;"/>
+    <i><div style="text-align: center">Figure 3. Fig 1 represented in linear format.</div></i><br>
+</div>
+<p>Let us now try to implement the SVM for binary data classification.</p>
+<hr>
+<p>First we need to import the libraries. In this particular scenario we need pandas to import the dataset, numpy for array manipulation and SVM from sklearn for the model.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py"><span style="color:#f92672">import</span> pandas <span style="color:#66d9ef">as</span> pd
+<span style="color:#f92672">from</span> sklearn <span style="color:#f92672">import</span> svm
+<span style="color:#f92672">import</span> numpy <span style="color:#66d9ef">as</span> np
+</code></pre></div><p>Next up we will load the dataset in the file “data.csv”</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">df <span style="color:#f92672">=</span> pd<span style="color:#f92672">.</span>read_csv(<span style="color:#e6db74">&#34;data.csv&#34;</span>,index_col<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Index&#34;</span>)
+print(df<span style="color:#f92672">.</span>head())
+</code></pre></div><p>Now we will convert the columns into numpy arrays.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">X_value <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>array(df<span style="color:#f92672">.</span>X)<span style="color:#f92672">.</span>reshape((<span style="color:#ae81ff">1000</span>,<span style="color:#ae81ff">1</span>))
+Y_value <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>array(df<span style="color:#f92672">.</span>Y)<span style="color:#f92672">.</span>reshape((<span style="color:#ae81ff">1000</span>,<span style="color:#ae81ff">1</span>))
+Labels <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>array(df<span style="color:#f92672">.</span>Label)
+print(<span style="color:#e6db74">&#34;X array shape:&#34;</span>,X_value<span style="color:#f92672">.</span>shape)
+print(<span style="color:#e6db74">&#34;Y array shape:&#34;</span>,Y_value<span style="color:#f92672">.</span>shape)
+print(<span style="color:#e6db74">&#34;Labels array shape:&#34;</span>,Labels<span style="color:#f92672">.</span>shape)
+</code></pre></div><p>For SVM, we need to stack the X and Y horizontally in the format [(x1,y1),(x2,y2) ….]. We will do this using hstack function of numpy.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">XY <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>hstack([X_value,Y_value])
+print(<span style="color:#e6db74">&#34;XY array shape:&#34;</span>,XY<span style="color:#f92672">.</span>shape)
+</code></pre></div><p>Let us now split our dataset into train and test. We will have 80% of the dataset for train while the rest will be for testing.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py"><span style="color:#f92672">from</span> sklearn.model_selection <span style="color:#f92672">import</span> train_test_split
+X_train, X_test, y_train, y_test <span style="color:#f92672">=</span> train_test_split(XY, Labels, test_size<span style="color:#f92672">=</span><span style="color:#ae81ff">0.2</span>, random_state<span style="color:#f92672">=</span><span style="color:#ae81ff">2</span>)
+</code></pre></div><p>Let us now create a Support Vector Classifier for our dataset. We will check the accuracy of our model with respect to the performance on test dataset. By default it considers rbf kernel which is well suited for our dataset as the separation is circular in nature.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">clf <span style="color:#f92672">=</span> svm<span style="color:#f92672">.</span>SVC()
+clf<span style="color:#f92672">.</span>fit(X_train, y_train)
+y_pred <span style="color:#f92672">=</span> clf<span style="color:#f92672">.</span>predict(X_test)
+<span style="color:#f92672">from</span> sklearn.metrics <span style="color:#f92672">import</span> plot_confusion_matrix
+plot_confusion_matrix(clf, X_test,y_test)
+</code></pre></div><p>We can see that the model has about 100% accuracy. This is because both the classes are well separated however while dealing with real dataset the separation between then needn’t be well defined.</p>
+<p>In the below code we see how accurate a SVM with linear kernel. As the the data items cannot be separated using a line, the accuracy is low.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">clf <span style="color:#f92672">=</span> svm<span style="color:#f92672">.</span>SVC(kernel<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;linear&#34;</span>)
+clf<span style="color:#f92672">.</span>fit(X_train, y_train)
+y_pred <span style="color:#f92672">=</span> clf<span style="color:#f92672">.</span>predict(X_test)
+<span style="color:#f92672">from</span> sklearn.metrics <span style="color:#f92672">import</span> plot_confusion_matrix
+plot_confusion_matrix(clf, X_test,y_test)
+</code></pre></div><p><div align="center">
+    <img src="http://example.org/images/blog/SVM-BC/image-4.png" style="max-width: 100%;"/>
+    <i><div style="text-align: center">Figure 4. Confusion Matrix for linear classifier.</div></i><br>
+</div>
+<hr></p>
+<p>In this post we have discussed the basics of Support Vector Machines, and how they can be used for binary classification for data. This method has been used in various domains, like sentiment analysis, image classification etc. You can find the code for this blogpost in <a href="https://github.com/Aakash-Ez/Blog_Programs/tree/main/Week%202%20-%2006_Dec_2020">this github repo</a>.</p>
+
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+
+  </div>
+  <section class="footer" id="contact">
+	<div class="footer__background_shape">
+		<svg viewBox="0 0 1920 79">
+			<path d="M0 0h1920v79L0 0z" data-name="Path 1450" />
+		</svg>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="footer__cta">
+					<div class="shape-1">
+						<svg xmlns="http://www.w3.org/2000/svg" width="357" height="315.029" viewBox="0 0 357 315.029">
+							<path data-name="Path 1449"
+								d="M76.1-157.222C91.746-135.8 87.2-94.273 99.993-61.945c12.7 32.328 42.661 55.459 39.248 73.282-3.318 17.823-40.007 30.337-65.6 43.325-25.5 12.988-39.912 26.545-60.01 42.566-20.1 16.116-46.074 34.6-63.328 27.682-17.349-6.921-25.976-39.153-59.915-59.82s-93.1-29.768-105.325-51.478 22.373-56.028 43.609-93.949c21.331-37.921 29.2-79.35 53.563-96.793 24.459-17.444 65.414-10.9 103.9-6.921 38.396 3.982 74.326 5.404 89.965 26.829z"
+								transform="translate(217.489 188.626)" />
+						</svg>
+					</div>
+					<div class="shape-2">
+						<svg xmlns="http://www.w3.org/2000/svg" width="357" height="315.029" viewBox="0 0 357 315.029">
+							<path data-name="Path 1449"
+								d="M76.1-157.222C91.746-135.8 87.2-94.273 99.993-61.945c12.7 32.328 42.661 55.459 39.248 73.282-3.318 17.823-40.007 30.337-65.6 43.325-25.5 12.988-39.912 26.545-60.01 42.566-20.1 16.116-46.074 34.6-63.328 27.682-17.349-6.921-25.976-39.153-59.915-59.82s-93.1-29.768-105.325-51.478 22.373-56.028 43.609-93.949c21.331-37.921 29.2-79.35 53.563-96.793 24.459-17.444 65.414-10.9 103.9-6.921 38.396 3.982 74.326 5.404 89.965 26.829z"
+								transform="translate(217.489 188.626)" />
+						</svg>
+					</div>
+					<div class="text-light footer__cta_content">
+						<span>Contact me</span>
+						<h2 class="mb-0">Let’s Start a Project</h2>
+					</div>
+					<div class="footer__cta_action">
+						<a class="btn btn-light btn-zoom" href="http://example.org/contact">Get in
+							touch</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row footer__widget">
+			<div class="col-lg-4">
+				<div class="footer__widget_logo mb-5">
+					<img src="http://example.org/images/contact/widget-logo.png" alt="widget-logo">
+				</div>
+			</div>
+			
+			<div class="col-lg-4">
+				<div class="text-light footer__widget_address mb-5">
+					<h4 class="base-font">Address</h4>
+					
+					<ul class="fa-ul small">
+						<li class="mb-2"><a class="text-light" href="tel:&#43;%2891%29%20962%20936%205421"><span class="fa-li"><i
+										class="fa fa-phone"></i></span>&#43;(91) 962 936 5421</a></li>
+						<li class="mb-2"><a class="text-light" href="mailto:aakash.ezhilan@gmail.com"><span class="fa-li"><i
+										class="fa fa-envelope"></i></span>aakash.ezhilan@gmail.com</a></li>
+						<li class="mb-2">
+							<span class="fa-li"><i class="fa fa-map-marker"></i></span>Chennai, Tamil Nadu, India. Pincode: 603103</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="row footer__footer">
+			<div class="col-lg-6">
+				<div class="footer__footer_copy text-light">
+					<p>Made on top of Portio Template</p>
+				</div>
+			</div>
+			<div class="col-lg-6">
+				<div class="footer__footer_social">
+					<ul class="unstyle-list">
+						
+						
+						<li class="d-inline-block mx-2"><a class="text-light" target="_blank" href="https://www.facebook.com/aakash.ezhilan"><i
+									class="fa fa-facebook-official"></i></a>
+						</li>
+						
+						<li class="d-inline-block mx-2"><a class="text-light" target="_blank" href="https://www.linkedin.com/in/aakash-ez"><i
+									class="fa fa-linkedin-square"></i></a>
+						</li>
+						
+						<li class="d-inline-block mx-2"><a class="text-light" target="_blank" href="https://github.com/Aakash-Ez/"><i
+									class="fa fa-github-square"></i></a>
+						</li>
+						
+						<li class="d-inline-block mx-2"><a class="text-light" target="_blank" href="https://twitter.com/aakash_ezhilan"><i
+									class="fa fa-twitter-square"></i></a>
+						</li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR%20GOOGLE%20MAP%20API&libraries=geometry"></script>
+<script src="http://example.org/plugins/jQuery/jquery.min.js"></script>
+<script src="http://example.org/plugins/bootstrap/bootstrap.min.js"></script>
+<script src="http://example.org/plugins/slick/slick.min.js"></script>
+<script src="http://example.org/plugins/waypoint/jquery.waypoints.min.js"></script>
+<script src="http://example.org/plugins/magnafic-popup/jquery.magnific-popup.min.js"></script>
+<script src="http://example.org/plugins/tweenmax/TweenMax.min.js"></script>
+<script src="http://example.org/plugins/imagesloaded/imagesloaded.min.js"></script>
+<script src="http://example.org/plugins/masonry/masonry.min.js"></script>
+
+<script src="http://example.org/js/form-handler.min.js"></script>
+
+<script src="http://example.org/js/script.min.js"></script>
+
+</body>
+
+</html>

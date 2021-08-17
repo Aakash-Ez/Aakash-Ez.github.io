@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Part II: Image Classification Using CNNs</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+  <!-- Slick Carousel -->
+  <link rel="stylesheet" href="http://example.org/plugins/slick/slick.css" />
+  <link rel="stylesheet" href="http://example.org/plugins/slick/slick-theme.css" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="http://example.org/plugins/font-awesome/css/font-awesome.min.css" />
+
+  <!-- Magnific Popup -->
+  <link rel="stylesheet" href="http://example.org/plugins/magnafic-popup/magnific-popup.css" />
+
+  <!-- Stylesheets -->
+  
+  <link href="http://example.org/scss/style.min.css" rel="stylesheet" />
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="http://example.org/images/favicon.ico" type="image/x-icon" />
+  <link rel="icon" href="http://example.org/images/favicon.png" type="image/x-icon" />
+  
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=YOUR%20GOOGLE%20ANALYTICS%20CODE"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'YOUR GOOGLE ANALYTICS CODE');
+  </script>
+  
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg fixed-top">
+  <div class="container">
+    <a href="http://example.org/" class="navbar-brand">
+      <img src="http://example.org/images/site-navigation/logo.png" alt="site-logo">
+    </a>
+    <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#navbarCollapse">
+      <span class="navbar-toggler-icon"></span>
+      <span class="navbar-toggler-icon"></span>
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+      <ul class="nav navbar-nav main-navigation my-0 mx-auto">
+        
+        
+        <li class="nav-item">
+          <a href="http://example.org/#home"
+            class="nav-link text-dark text-sm-center p-2 ">Home</a>
+        </li>
+        
+        <li class="nav-item">
+          <a href="http://example.org//off-topic"
+            class="nav-link text-dark text-sm-center p-2 ">Off Topic</a>
+        </li>
+        
+        <li class="nav-item">
+          <a href="http://example.org//blog"
+            class="nav-link text-dark text-sm-center p-2 ">Blog</a>
+        </li>
+        
+        <li class="nav-item">
+          <a href="http://example.org//contact"
+            class="nav-link text-dark text-sm-center p-2 ">Contact</a>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+  <div id="content">
+    
+
+<header class="breadCrumb">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 col-md-12 offset-lg-1 offset-md-0 text-center">
+        <h3 class="breadCrumb__title">Part II: Image Classification Using CNNs</h3>
+        <nav aria-label="breadcrumb" class="d-flex justify-content-center">
+          <ol class="breadcrumb align-items-center">
+            <li class="breadcrumb-item"><a href=http://example.org/>Home</a></li>
+            <li class="breadcrumb-item"><a href=http://example.org/blog>All Post</a></li>
+            <li class="breadcrumb-item active">Aakash Ezhilan</li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="section singleBlog">
+  <div class="svg-img">
+      <img src=http://example.org/images/hero/figure-svg.svg alt="">
+  </div>
+  <div class="animate-shape">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 600">
+          <defs>
+              <linearGradient id="d" x1="0.929" y1="0.111" x2="0.263" y2="0.935" gradientUnits="objectBoundingBox">
+                  <stop offset="0" stop-color="#f1f6f9" />
+                  <stop offset="1" stop-color="#f1f6f9" stop-opacity="0" />
+              </linearGradient>
+          </defs>
+          <g data-name="blob-shape (3)">
+              <path class="blob" fill="url(#d)"
+                  d="M455.4 151.1c43.1 36.7 73.4 92.8 60.8 136.3-12.7 43.5-68.1 74.4-111.3 119.4-43.1 45-74 104.1-109.8 109-35.9 5-76.7-44.2-111.8-89.2-35.2-45-64.7-85.8-70.8-132.6-6-46.8 11.6-99.6 46.7-136.3 35.2-36.6 88-57.2 142.4-58.8 54.5-1.7 110.6 15.6 153.8 52.2z" />
+          </g>
+      </svg>
+  </div>
+  <div class="animate-pattern">
+      <img src=http://example.org/images/service/background-pattern.svg alt="background-shape">
+  </div>
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-12">
+              <div class="singleBlog__feature">
+                  <img src=http://example.org/images/blog/cnn-part-2/featured.png alt="feature-image">
+              </div>
+          </div>
+      </div>
+      <div class="row mt-5">
+          <div class="col-lg-12">
+              <div class="singleBlog__content">
+                  <p>In the last week’s post we discussed the theoretical aspects of Convolution Operation. Today we are going to discuss the need for convolutional neural networks and its implementation for classification of fashionMNIST dataset.</p>
+<h3 id="need-for-cnns">Need for CNNs</h3>
+<p>A normal Artificial Neural Network architecture often fails when dealing with Image based dataset mainly because of the humongous amount of parameters required, to even form a shallow neural network.</p>
+<p>Let us consider an example where we have a dataset with images of dimension 100x100x3 to be classified as dog or not dog. To feed this as input to the neural network, we will require 30,000 nodes and let us assume we have two hidden layers with 160,000 and 320,000 neurons. This will mean that for a fully connected network, the number of parameters between input layer and 1st hidden layer will be 30,000 * 160,000 + 160,000, which is 4,800,160,000 parameters! The overall parameters for the above mentioned architecture will be fifty-six billion eight hundred thousand one! This makes it really hard to train a deep artificial neural network on image based datasets.</p>
+<p>On the other hand, convolutional neural networks are able to process the same image but with lesser amount of parameters because of two main reasons:</p>
+<p><strong>Parameter Sharing:</strong> Convolution Neural Networks use filters as feature detectors and assumes that a detector that is useful in one part of the image will be useful in another part.</p>
+<p><strong>Sparsity of Connections:</strong> In a Convolutional Neural Network, each element in the Output Matrix of a convolution layer is decided by only a set of elements in the previous layer and does not require the knowledge of all other elements.</p>
+<p>Convolutional neural networks also help maintaining the spatial information of the pixels in the image.</p>
+<div align="center">
+    <img src="http://example.org/images/blog/cnn-part-2/image-1.png" style="max-width: 100%;"/>
+    <i><div style="text-align: center">Figure 1. A simple Convolutional Neural Network Architecture.</div></i><br>
+</div>
+<p>Let us consider a simple CNN architecture as shown in Figure 1. We first perform convolution operation on our 100x100x3 input image with same padding and filter of size 3×3. Let us say we have 16 such filters therefore the output of this layer will be of shape 100x100x16 which is 160,000 same as the first hidden layer in ANN. Next we perform a convolution operation with same padding and filter of size 5×5. We have 32 such filters therefore the output of this layer will be of shape 100x100x32 which is 320,000.</p>
+<p>Now we flatten the output and connect it to a single node output layer. The number of parameters in this basic architecture will be 3x3x3x16 + 1×16 for first convolution layer and 5x5x16x32+1×32 for second convolution layer and 320,001 for final fully connected layer. The total parameter therefore for this architecture will be 333,281. This is significantly less than that of an ANN and therefore it is possible to go deeper with a CNN than with ANN.</p>
+<h3 id="classification-of-fasionmnist-data">Classification of FasionMNIST Data</h3>
+<p><a href="https://github.com/zalandoresearch/fashion-mnist">Fashion-MNIST</a> is a dataset of Zalando’s article images—consisting of a training set of 60,000 examples and a test set of 10,000 examples. Each example is a 28×28 grayscale image, associated with a label from 10 classes. We intend Fashion-MNIST to serve as a direct drop-in replacement for the original <a href="http://yann.lecun.com/exdb/mnist/">MNIST dataset</a> for benchmarking machine learning algorithms. It shares the same image size and structure of training and testing splits.</p>
+<p>We are now going to implement a simple CNN architecture to classify the images present in Fashion-MNIST dataset. First we need to import the dataset, and we are going to do this using Keras Framework.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py"><span style="color:#f92672">import</span> numpy <span style="color:#66d9ef">as</span> np
+<span style="color:#f92672">from</span> keras <span style="color:#f92672">import</span> datasets
+(x_train,y_train),(x_test,y_test) <span style="color:#f92672">=</span> datasets<span style="color:#f92672">.</span>fashion_mnist<span style="color:#f92672">.</span>load_data()
+</code></pre></div><p>Next we need to format the data in a way which can be easily processed. As the images are grayscale they are two dimensional (28 x 28), however we are going to reshape it to (28 x 28 x 1) so that we can make our architecture more generic (as color images are of 3 dimensional). The label arrays have values between 0-9 with each integer denoting a different item. We need to convert this into binary class matrix using to_categorical function.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py"><span style="color:#f92672">from</span> keras.utils <span style="color:#f92672">import</span> to_categorical
+X_train <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>reshape(x_train,(x_train<span style="color:#f92672">.</span>shape[<span style="color:#ae81ff">0</span>],x_train<span style="color:#f92672">.</span>shape[<span style="color:#ae81ff">1</span>],x_train<span style="color:#f92672">.</span>shape[<span style="color:#ae81ff">2</span>],<span style="color:#ae81ff">1</span>))
+X_test <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>reshape(x_test,(x_test<span style="color:#f92672">.</span>shape[<span style="color:#ae81ff">0</span>],x_test<span style="color:#f92672">.</span>shape[<span style="color:#ae81ff">1</span>],x_test<span style="color:#f92672">.</span>shape[<span style="color:#ae81ff">2</span>],<span style="color:#ae81ff">1</span>))
+Y_train <span style="color:#f92672">=</span> to_categorical(y_train,<span style="color:#ae81ff">10</span>)
+Y_test <span style="color:#f92672">=</span> to_categorical(y_test,<span style="color:#ae81ff">10</span>)
+print(<span style="color:#e6db74">&#34;X Train shape is:&#34;</span>,X_train<span style="color:#f92672">.</span>shape)
+print(<span style="color:#e6db74">&#34;Y Train shape is:&#34;</span>,Y_train<span style="color:#f92672">.</span>shape)
+print(<span style="color:#e6db74">&#34;X Test shape is:&#34;</span>,X_test<span style="color:#f92672">.</span>shape)
+print(<span style="color:#e6db74">&#34;Y Test shape is:&#34;</span>,Y_test<span style="color:#f92672">.</span>shape)
+</code></pre></div><p>Let us now import the necessary layers for our CNN Architecture.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py"><span style="color:#f92672">from</span> keras.layers <span style="color:#f92672">import</span> Input,Dense,Conv2D,MaxPooling2D,BatchNormalization,Flatten
+<span style="color:#f92672">from</span> keras <span style="color:#f92672">import</span> Sequential
+</code></pre></div><p>Next we will define our architecture. We are going to define a function to define our model. We’ll be using categorical crossentropy function for loss and Adam optimizer as shown below.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">create_model</span>(input_shape,no_of_classes):
+  model <span style="color:#f92672">=</span> Sequential()
+  model<span style="color:#f92672">.</span>add(Input(input_shape))
+  model<span style="color:#f92672">.</span>add(Conv2D(<span style="color:#ae81ff">128</span>,kernel_size<span style="color:#f92672">=</span>(<span style="color:#ae81ff">3</span>,<span style="color:#ae81ff">3</span>), activation<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;relu&#34;</span>))
+  model<span style="color:#f92672">.</span>add(MaxPooling2D())
+  model<span style="color:#f92672">.</span>add(BatchNormalization())
+  model<span style="color:#f92672">.</span>add(Conv2D(<span style="color:#ae81ff">256</span>,kernel_size<span style="color:#f92672">=</span>(<span style="color:#ae81ff">3</span>,<span style="color:#ae81ff">3</span>), activation<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;relu&#34;</span>))
+  model<span style="color:#f92672">.</span>add(MaxPooling2D())
+  model<span style="color:#f92672">.</span>add(BatchNormalization())
+  model<span style="color:#f92672">.</span>add(Conv2D(<span style="color:#ae81ff">512</span>,kernel_size<span style="color:#f92672">=</span>(<span style="color:#ae81ff">3</span>,<span style="color:#ae81ff">3</span>), activation<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;relu&#34;</span>))
+  model<span style="color:#f92672">.</span>add(MaxPooling2D())
+  model<span style="color:#f92672">.</span>add(BatchNormalization())
+  model<span style="color:#f92672">.</span>add(Flatten())
+  model<span style="color:#f92672">.</span>add(Dense(<span style="color:#ae81ff">1024</span>,activation<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;relu&#34;</span>))
+  model<span style="color:#f92672">.</span>add(Dense(<span style="color:#ae81ff">1024</span>,activation<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;relu&#34;</span>))
+  model<span style="color:#f92672">.</span>add(Dense(no_of_classes,activation<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;softmax&#34;</span>))
+  <span style="color:#66d9ef">return</span> model
+model <span style="color:#f92672">=</span> create_model(X_train[<span style="color:#ae81ff">0</span>]<span style="color:#f92672">.</span>shape,<span style="color:#ae81ff">10</span>)
+model<span style="color:#f92672">.</span>compile(optimizer<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;adam&#39;</span>, loss<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;categorical_crossentropy&#39;</span>,metrics<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;accuracy&#34;</span>)
+model<span style="color:#f92672">.</span>summary()
+</code></pre></div><p>Figure 2. shows the expected output for the above code. This is the architecture we are going to train for classifying the Fashion MNIST data.</p>
+<div align="center">
+    <img src="http://example.org/images/blog/cnn-part-2/image-2.png" style="max-width: 100%;"/>
+    <i><div style="text-align: center">Figure 2. CNN architecture we have implemented.</div></i><br>
+</div>
+<p>We can now train our model on Fashion-MNIST dataset. We are going train it initially over 10 epochs however you can choose to train it over more.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">history <span style="color:#f92672">=</span> model<span style="color:#f92672">.</span>fit(X_train,Y_train,batch_size<span style="color:#f92672">=</span><span style="color:#ae81ff">64</span>,epochs<span style="color:#f92672">=</span><span style="color:#ae81ff">10</span>,validation_split<span style="color:#f92672">=</span><span style="color:#ae81ff">0.2</span>)
+</code></pre></div><p>Once we are done training the model to a satisfactory accuracy, we can evaluate how the model performs on the testing data.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">y_pred <span style="color:#f92672">=</span> model<span style="color:#f92672">.</span>predict(X_test)
+y_pred <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>where(y_pred <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">0.5</span>, <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">0</span>)
+print(y_pred<span style="color:#f92672">.</span>shape)
+<span style="color:#f92672">from</span> sklearn.metrics <span style="color:#f92672">import</span> confusion_matrix
+cf_matrix <span style="color:#f92672">=</span> confusion_matrix(Y_test<span style="color:#f92672">.</span>argmax(axis<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>),y_pred<span style="color:#f92672">.</span>argmax(axis<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>),normalize<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;true&#39;</span>)<span style="color:#f92672">*</span><span style="color:#ae81ff">100</span>
+<span style="color:#f92672">import</span> seaborn <span style="color:#66d9ef">as</span> sns
+ax <span style="color:#f92672">=</span> sns<span style="color:#f92672">.</span>heatmap(cf_matrix, annot<span style="color:#f92672">=</span><span style="color:#66d9ef">True</span>,cmap<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;YlGnBu&#34;</span>)
+ax<span style="color:#f92672">.</span>set(title<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Confusion Matrix&#34;</span>,
+      xlabel<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;True Value&#34;</span>,
+      ylabel<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Prediction&#34;</span>,)
+sns<span style="color:#f92672">.</span>set(font_scale<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>)
+</code></pre></div><p>In the above code snippet we have depicted the performance of our model using confusing matrix as showing in Figure 3.</p>
+<div align="center">
+    <img src="http://example.org/images/blog/cnn-part-2/image-3.png" style="max-width: 100%;"/>
+    <i><div style="text-align: center">Figure 3. Performance of model on testing data.</div></i><br>
+</div>
+<p>You can find the code for this blogpost in <a href="https://github.com/Aakash-Ez/Blog_Programs/tree/main/Week%204%20-%2027_Dec_2020">this github repo</a>.</p>
+
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+
+  </div>
+  <section class="footer" id="contact">
+	<div class="footer__background_shape">
+		<svg viewBox="0 0 1920 79">
+			<path d="M0 0h1920v79L0 0z" data-name="Path 1450" />
+		</svg>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="footer__cta">
+					<div class="shape-1">
+						<svg xmlns="http://www.w3.org/2000/svg" width="357" height="315.029" viewBox="0 0 357 315.029">
+							<path data-name="Path 1449"
+								d="M76.1-157.222C91.746-135.8 87.2-94.273 99.993-61.945c12.7 32.328 42.661 55.459 39.248 73.282-3.318 17.823-40.007 30.337-65.6 43.325-25.5 12.988-39.912 26.545-60.01 42.566-20.1 16.116-46.074 34.6-63.328 27.682-17.349-6.921-25.976-39.153-59.915-59.82s-93.1-29.768-105.325-51.478 22.373-56.028 43.609-93.949c21.331-37.921 29.2-79.35 53.563-96.793 24.459-17.444 65.414-10.9 103.9-6.921 38.396 3.982 74.326 5.404 89.965 26.829z"
+								transform="translate(217.489 188.626)" />
+						</svg>
+					</div>
+					<div class="shape-2">
+						<svg xmlns="http://www.w3.org/2000/svg" width="357" height="315.029" viewBox="0 0 357 315.029">
+							<path data-name="Path 1449"
+								d="M76.1-157.222C91.746-135.8 87.2-94.273 99.993-61.945c12.7 32.328 42.661 55.459 39.248 73.282-3.318 17.823-40.007 30.337-65.6 43.325-25.5 12.988-39.912 26.545-60.01 42.566-20.1 16.116-46.074 34.6-63.328 27.682-17.349-6.921-25.976-39.153-59.915-59.82s-93.1-29.768-105.325-51.478 22.373-56.028 43.609-93.949c21.331-37.921 29.2-79.35 53.563-96.793 24.459-17.444 65.414-10.9 103.9-6.921 38.396 3.982 74.326 5.404 89.965 26.829z"
+								transform="translate(217.489 188.626)" />
+						</svg>
+					</div>
+					<div class="text-light footer__cta_content">
+						<span>Contact me</span>
+						<h2 class="mb-0">Let’s Start a Project</h2>
+					</div>
+					<div class="footer__cta_action">
+						<a class="btn btn-light btn-zoom" href="http://example.org/contact">Get in
+							touch</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row footer__widget">
+			<div class="col-lg-4">
+				<div class="footer__widget_logo mb-5">
+					<img src="http://example.org/images/contact/widget-logo.png" alt="widget-logo">
+				</div>
+			</div>
+			
+			<div class="col-lg-4">
+				<div class="text-light footer__widget_address mb-5">
+					<h4 class="base-font">Address</h4>
+					
+					<ul class="fa-ul small">
+						<li class="mb-2"><a class="text-light" href="tel:&#43;%2891%29%20962%20936%205421"><span class="fa-li"><i
+										class="fa fa-phone"></i></span>&#43;(91) 962 936 5421</a></li>
+						<li class="mb-2"><a class="text-light" href="mailto:aakash.ezhilan@gmail.com"><span class="fa-li"><i
+										class="fa fa-envelope"></i></span>aakash.ezhilan@gmail.com</a></li>
+						<li class="mb-2">
+							<span class="fa-li"><i class="fa fa-map-marker"></i></span>Chennai, Tamil Nadu, India. Pincode: 603103</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="row footer__footer">
+			<div class="col-lg-6">
+				<div class="footer__footer_copy text-light">
+					<p>Made on top of Portio Template</p>
+				</div>
+			</div>
+			<div class="col-lg-6">
+				<div class="footer__footer_social">
+					<ul class="unstyle-list">
+						
+						
+						<li class="d-inline-block mx-2"><a class="text-light" target="_blank" href="https://www.facebook.com/aakash.ezhilan"><i
+									class="fa fa-facebook-official"></i></a>
+						</li>
+						
+						<li class="d-inline-block mx-2"><a class="text-light" target="_blank" href="https://www.linkedin.com/in/aakash-ez"><i
+									class="fa fa-linkedin-square"></i></a>
+						</li>
+						
+						<li class="d-inline-block mx-2"><a class="text-light" target="_blank" href="https://github.com/Aakash-Ez/"><i
+									class="fa fa-github-square"></i></a>
+						</li>
+						
+						<li class="d-inline-block mx-2"><a class="text-light" target="_blank" href="https://twitter.com/aakash_ezhilan"><i
+									class="fa fa-twitter-square"></i></a>
+						</li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR%20GOOGLE%20MAP%20API&libraries=geometry"></script>
+<script src="http://example.org/plugins/jQuery/jquery.min.js"></script>
+<script src="http://example.org/plugins/bootstrap/bootstrap.min.js"></script>
+<script src="http://example.org/plugins/slick/slick.min.js"></script>
+<script src="http://example.org/plugins/waypoint/jquery.waypoints.min.js"></script>
+<script src="http://example.org/plugins/magnafic-popup/jquery.magnific-popup.min.js"></script>
+<script src="http://example.org/plugins/tweenmax/TweenMax.min.js"></script>
+<script src="http://example.org/plugins/imagesloaded/imagesloaded.min.js"></script>
+<script src="http://example.org/plugins/masonry/masonry.min.js"></script>
+
+<script src="http://example.org/js/form-handler.min.js"></script>
+
+<script src="http://example.org/js/script.min.js"></script>
+
+</body>
+
+</html>
