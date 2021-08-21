@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8" />
-  <title>NLP: Part-Of-Speech Tagging</title>
+  <title>Deep Fakes: When AI turns evil</title>
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -87,7 +87,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-10 col-md-12 offset-lg-1 offset-md-0 text-center">
-        <h3 class="breadCrumb__title">NLP: Part-Of-Speech Tagging</h3>
+        <h3 class="breadCrumb__title">Deep Fakes: When AI turns evil</h3>
         <nav aria-label="breadcrumb" class="d-flex justify-content-center">
           <ol class="breadcrumb align-items-center">
             <li class="breadcrumb-item"><a href=https://aakash-ez.github.io/>Home</a></li>
@@ -126,37 +126,40 @@
       <div class="row">
           <div class="col-lg-12">
               <div class="singleBlog__feature">
-                  <img src=https://aakash-ez.github.io/images/blog/pos-tagging/featured.png alt="feature-image">
+                  <img src=https://aakash-ez.github.io/images/blog/deep-fake-evil-ai/featured.png alt="feature-image">
               </div>
           </div>
       </div>
       <div class="row mt-5">
           <div class="col-lg-12">
               <div class="singleBlog__content">
-                  <p>When we try to understand the meaning of a sentence, it is important for us to understand the syntactic relationship between the various words present in the sentence. Sometimes, these relationship between words, can determine the meaning of an ambiguous word. For instance, let us consider the word ‘Like’ in the following two sentences</p>
-<ol>
-<li><em><strong>I like you.</strong></em></li>
-<li><em><strong>I am like you.</strong></em></li>
-</ol>
-<p>In the first sentence, the word ‘like’ is a verb of positive sentiment, whereas in the second sentence ‘like’ acts as an preposition and coveys a different meaning. Therefore, to understand a sentence better, it is important for us to understand the relationship between words.</p>
-<p>POS Tagging, is the process of identifying the grammatic tag (part of speech) of the word, based on its definition and/or context. There are various ways, by which we can perform POS Tagging, with the various methods broadly classified into four categories:</p>
-<ol>
-<li><em><strong>Lexical Technique:</strong></em> Assigning the POS tag, based on the one most frequently occurring with the word in the training data.</li>
-<li><em><strong>Rule-Based Technique:</strong></em> Identifying and using rules based on previous observations to assign the POS tag of the word. For example, words that end with “ing” or “ed” are in most cases verbs and therefore this can be a rule. Rule-Based Technique are often used with Lexical methods to determine the tag associated with words not previous observed in the training data.</li>
-<li><em><strong>Probabilistic Technique:</strong></em> In probabilistic methods, the probability of POS Tag sequence occurring is determined and is used to identify the Tag associated with the word. This technique involves methods like Conditional Random Field and Hidden Markov Models.</li>
-<li><em><strong>Deep Learning Technique:</strong></em> Recurrent Neural Network architectures like LSTM and GRU can be used to extract hidden patterns from the sequence provided to determine the like Tag of the word in question.</li>
-</ol>
-<h3 id="pos-tagging-using-nltk">POS Tagging using NLTK</h3>
-<p>We will be using the NLTK library of Python to perform POS Tagging. we will also be using the word_tokenize function, to tokenize the sentence provided into words. Before that, let us make sure we have the required libraries</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py"><span style="color:#f92672">import</span> nltk
-nltk<span style="color:#f92672">.</span>download(<span style="color:#e6db74">&#39;punkt&#39;</span>)
-<span style="color:#f92672">from</span> nltk <span style="color:#f92672">import</span> word_tokenize 
-</code></pre></div><p>Now, we will tokenize the sentence into words. It must be noted here that, we are getting words as tokens because we are using word_tokenize function, however it is possible to tokenize the sentence based on syllable etc.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">text <span style="color:#f92672">=</span> word_tokenize(<span style="color:#e6db74">&#34;I shot an elephant in my pajamas.&#34;</span>)
-print(text)
-</code></pre></div><p>Finally we will be do POS Tagging on the tokens stored in text.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">nltk<span style="color:#f92672">.</span>pos_tag(text)
-</code></pre></div>
+                  <p>Over the past two decades, almost all fields have been impacted by the rise of AI and ML. More often than not, these developments have affected the world in a positive way, from personalized healthcare to automated customer services. Furthermore, AI has been used in structural drug discovery by predicting 3D protein structures. AI has helped medical professionals analyze lab reports to enable early diagnosis of patients. However, AI has also been used for unethical purposes, like the topic for today: <strong>Deep Fakes</strong>.</p>
+<h3 id="what-are-deep-fakes">What are Deep Fakes?</h3>
+<p>Deep Fakes, maybe defined as synthetic media generated using techniques of deep learning, where an existing media content is replaced with the likeness of another individual. While the generated media contents initially were easily identifiable, the technology has improved significantly and are becoming hard to distinguish from real videos. Furthermore, the ease with which these contents can be generated, have made deepfakes a significant issue.</p>
+<p>Let us consider the video below, where AI has been used to generate a fake video of Barack Obama. While the video has been used to generate awareness about deepfakes, one can easily see how a technology like this can be used to ruin people&rsquo;s reputation or to peddle fake news.</p>
+<figure class="video_container">
+  <iframe style="width: 100%; height: 350px; max-height: 100%;" src="https://www.youtube.com/embed/bE1KWpoX9Hk" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+<h3 id="generative-networks">Generative Networks</h3>
+<p>What really disheartens me is that deepfakes are result of innovations and ideas which at its core are fascinating. Earliest attempts of creating synthetic media can be attributed to autoencoders, which are used in image regeneration, noise removal etc. However contents thus generated were far from photorealistic.</p>
+<p>Development of modern day photorealistic deepfakes, were made possible by the development of GANs (Generative Adversarial Networks) in 2014. The core idea behind GAN was to have two networks competing against each other, with the generator trying to generate photorealistic images, while the discriminator would distinguish the fake images from the real one. Over time, both would learn from each other, thus improving the quality of image generated.</p>
+<div align="center">
+    <img src="https://aakash-ez.github.io/images/blog/deep-fake-evil-ai/image-1.png" style="border: 1px solid #555; max-width: 100%;"/>
+    <i><div style="text-align: center">Figure 1. Style Transfer GAN, to recreate the image in various styles.</div></i><br>
+</div>
+<h3 id="impact-of-deep-fake">Impact of Deep Fake</h3>
+<p>A research conducted by Sensity AI, determined that around 95% of Deep Fakes on the internet are nonconsensual porn. Furthermore, about 90% of these were of women. To lay it out in simple words, these are pornographic videos generated of women, without their consent or even awareness. All it takes now is just a single photo of a person, which is easily accessible, thanks to social media, to destroy their reputation.</p>
+<p>What further concerns me is the lack of knowledge among common people regarding this. When internet came into existence, it made it easier for all of us to communicate and acted as a platform for people to share their opinions. However, the rise of internet also lead to revenge porn. While there are laws in place now against revenge porn, many don&rsquo;t account for deepfakes. Therefore there are few laws in place to help the victim of such attacks.</p>
+<p>Here I would like to discuss, Helen Mort, a victim of such deepfake pornography. An old photo of hers, from social media was shared on explicit websites and were modified using deepfakes. As the content was modified, this wasn&rsquo;t considered as an offence of non-consensually distributing a private sexual photograph.</p>
+<h3 id="where-are-we-headed">Where are we headed?</h3>
+<p>It is hard to give an exact answer to this question. Many researchers believe that we are going to see a rise in such attacks and there are already evidences pointing towards it. It is becoming easier to generate such videos for layman without needing to understand the workings behind it. In 2019, an application named DeepNude was being circulated around, which removed clothings from an input image. While the application was removed almost immediately, replicas are being actively circulated in telegram.</p>
+<div align="center">
+    <img src="https://aakash-ez.github.io/images/blog/deep-fake-evil-ai/image-2.jfif" style="max-width: 100%;"/>
+    <i><div style="text-align: center">Figure 2. We need a separate law that acknowledges deepfake and its impact.</div></i><br>
+</div>
+<p>The first step is to make sure we have laws in place that account for such attacks, and protects the victim. From an Indian perspective, there are no laws in place that directly deal with deepfakes. The fight against deepfakes can be in described as right to privacy. The supreme court, in 2017, acknowledged that Right to Privacy is a fundamental right for Indian Citizens. Besides having a separate law for deepfakes, we need to make the public aware about what deepfakes are and the unethical ways in which it has been used.</p>
+<p>Now, I certainly am not against the core tech behind deepfakes or against open-source principles. GANs have a lot of real life applications and have been used to even recreate historical events to give us some insight into what key events would have looked like. Open source principles are also very important to develop technologies for the future. However it is necessary that we understand the impact our applications will have on common people and how we can mitigate it.</p>
+
               </div>
           </div>
       </div>
