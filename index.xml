@@ -6,16 +6,7 @@
     <description>Recent content on AakEz</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 21 Aug 2021 17:59:00 +0530</lastBuildDate><atom:link href="https://aakash-ez.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Deep Fakes: When AI turns evil</title>
-      <link>https://aakash-ez.github.io/blog/deep-fakes-evil-ai/</link>
-      <pubDate>Sat, 21 Aug 2021 17:59:00 +0530</pubDate>
-      
-      <guid>https://aakash-ez.github.io/blog/deep-fakes-evil-ai/</guid>
-      <description>Over the past two decades, almost all fields have been impacted by the rise of AI and ML. More often than not, these developments have affected the world in a positive way, from personalized healthcare to automated customer services. Furthermore, AI has been used in structural drug discovery by predicting 3D protein structures. AI has helped medical professionals analyze lab reports to enable early diagnosis of patients. However, AI has also been used for unethical purposes, like the topic for today: Deep Fakes.</description>
-    </item>
-    
+    <lastBuildDate>Sun, 13 Jun 2021 12:49:27 +0600</lastBuildDate><atom:link href="https://aakash-ez.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Sergio - Visual Question Generator</title>
       <link>https://aakash-ez.github.io/portfolio/sergio-vqg/</link>
