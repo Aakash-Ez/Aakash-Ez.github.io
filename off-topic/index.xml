@@ -6,7 +6,17 @@
     <description>Recent content in Recent Articles on AakEz</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 07 Feb 2021 00:00:00 +1800</lastBuildDate><atom:link href="https://aakash-ez.github.io/off-topic/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 29 Aug 2021 15:00:00 +0530</lastBuildDate><atom:link href="https://aakash-ez.github.io/off-topic/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>When A Machine beat Kasparov</title>
+      <link>https://aakash-ez.github.io/off-topic/when-a-machine-beat-kasparov/</link>
+      <pubDate>Sun, 29 Aug 2021 15:00:00 +0530</pubDate>
+      
+      <guid>https://aakash-ez.github.io/off-topic/when-a-machine-beat-kasparov/</guid>
+      <description>I am writing this article as I read the book &amp;ldquo;Deep Thinking&amp;rdquo; by Garry Kasparov. The book deals with his experience/experiments with AI and how it had evolved over time, from being significantly weaker than chess Grandmasters, to beating one of the greatest players, Kasparov himself.
+Introduction Chess has been one of the most commonly considered problems in AI domain. Almost anyone who has worked in AI has dwelled into chess and developed a model which can play reasonable chess.</description>
+    </item>
+    
     <item>
       <title>Getting Started with Google Football</title>
       <link>https://aakash-ez.github.io/off-topic/getting-started-with-google-football/</link>
