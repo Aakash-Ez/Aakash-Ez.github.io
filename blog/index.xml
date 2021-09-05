@@ -6,7 +6,16 @@
     <description>Recent content in Recent Articles on AakEz</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 22 Aug 2021 00:17:00 +0530</lastBuildDate><atom:link href="https://aakash-ez.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 05 Sep 2021 13:00:00 +0530</lastBuildDate><atom:link href="https://aakash-ez.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Biased Bots: When AI turns evil</title>
+      <link>https://aakash-ez.github.io/blog/biased-bots-evil-ai/</link>
+      <pubDate>Sun, 05 Sep 2021 13:00:00 +0530</pubDate>
+      
+      <guid>https://aakash-ez.github.io/blog/biased-bots-evil-ai/</guid>
+      <description>One of the most commonly referred to textbooks for AI, Artificial Intelligence: A Modern Approach by Peter Norvig and Stuart J. Russell, starts with a rather interesting chapter. It discusses what a good AI is, is it one that replicates human intelligence or one that makes the most mathematically sound decision? The answer to this question varies from person to person and a fair argument can be made for both the cases.</description>
+    </item>
+    
     <item>
       <title>Deep Fakes: When AI turns evil</title>
       <link>https://aakash-ez.github.io/blog/deep-fakes-evil-ai/</link>
