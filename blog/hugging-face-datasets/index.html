@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Hugging Face Datasets Library</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+  <!-- Slick Carousel -->
+  <link rel="stylesheet" href="https://aakash-ez.github.io/plugins/slick/slick.css" />
+  <link rel="stylesheet" href="https://aakash-ez.github.io/plugins/slick/slick-theme.css" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://aakash-ez.github.io/plugins/font-awesome/css/font-awesome.min.css" />
+
+  <!-- Magnific Popup -->
+  <link rel="stylesheet" href="https://aakash-ez.github.io/plugins/magnafic-popup/magnific-popup.css" />
+
+  <!-- Stylesheets -->
+  
+  <link href="https://aakash-ez.github.io/scss/style.min.css" rel="stylesheet" />
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://aakash-ez.github.io/images/favicon.ico" type="image/x-icon" />
+  <link rel="icon" href="https://aakash-ez.github.io/images/favicon.png" type="image/x-icon" />
+  
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-HRRGJWNWEC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-HRRGJWNWEC');
+  </script>
+  <link rel="stylesheet" type="text/css" href="https://pgn.chessbase.com/CBReplay.css" />
+
+  <script src="https://pgn.chessbase.com/jquery-3.0.0.min.js"></script>
+  <script src="https://pgn.chessbase.com/cbreplay.js" type="text/javascript"></script> 
+  
+</head>
+<head>
+<meta property="og:title" content="Hugging Face Datasets Library | AakEz" />
+<meta name="twitter:title" content="Hugging Face Datasets Library | AakEz" />
+<meta itemprop="name" content="Hugging Face Datasets Library | AakEz" />
+<meta name="application-name" content="Hugging Face Datasets Library | AakEz" />
+<meta property="og:site_name" content="https://aakash-ez.github.io/" />
+<meta name="description" content="Discussing the dataset library provided by Hugging Face, which contains a wide variety of tools and corpus to enable NLP projects and research works." />
+<meta itemprop="description" content="Discussing the dataset library provided by Hugging Face, which contains a wide variety of tools and corpus to enable NLP projects and research works." />
+<meta property="og:description" content="Discussing the dataset library provided by Hugging Face, which contains a wide variety of tools and corpus to enable NLP projects and research works." />
+<meta name="twitter:description" content="Discussing the dataset library provided by Hugging Face, which contains a wide variety of tools and corpus to enable NLP projects and research works." />
+<meta name="robots" content="index,follow" /> 
+<meta name="googlebot" content="index,follow" />
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg fixed-top">
+  <div class="container">
+    <a href="https://aakash-ez.github.io/" class="navbar-brand">
+      <img src="https://aakash-ez.github.io/images/site-navigation/logo.png" alt="site-logo">
+    </a>
+    <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#navbarCollapse">
+      <span class="navbar-toggler-icon"></span>
+      <span class="navbar-toggler-icon"></span>
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+      <ul class="nav navbar-nav main-navigation my-0 mx-auto">
+        
+        
+        <li class="nav-item">
+          <a href="https://aakash-ez.github.io/#home"
+            class="nav-link text-dark text-sm-center p-2 ">Home</a>
+        </li>
+        
+        <li class="nav-item">
+          <a href="https://aakash-ez.github.io//off-topic"
+            class="nav-link text-dark text-sm-center p-2 ">Off Topic</a>
+        </li>
+        
+        <li class="nav-item">
+          <a href="https://aakash-ez.github.io//blog"
+            class="nav-link text-dark text-sm-center p-2 ">Blog</a>
+        </li>
+        
+        <li class="nav-item">
+          <a href="https://aakash-ez.github.io//contact"
+            class="nav-link text-dark text-sm-center p-2 ">Contact</a>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+  <div id="content">
+    
+
+<header class="breadCrumb">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 col-md-12 offset-lg-1 offset-md-0 text-center">
+        <h3 class="breadCrumb__title">Hugging Face Datasets Library</h3>
+        <nav aria-label="breadcrumb" class="d-flex justify-content-center">
+          <ol class="breadcrumb align-items-center">
+            <li class="breadcrumb-item"><a href=https://aakash-ez.github.io/>Home</a></li>
+            <li class="breadcrumb-item"><a href=https://aakash-ez.github.io/blog>All Post</a></li>
+            <li class="breadcrumb-item active">Aakash Ezhilan</li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="section singleBlog">
+  <div class="svg-img">
+      <img src=https://aakash-ez.github.io/images/hero/figure-svg.svg alt="">
+  </div>
+  <div class="animate-shape">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 600">
+          <defs>
+              <linearGradient id="d" x1="0.929" y1="0.111" x2="0.263" y2="0.935" gradientUnits="objectBoundingBox">
+                  <stop offset="0" stop-color="#f1f6f9" />
+                  <stop offset="1" stop-color="#f1f6f9" stop-opacity="0" />
+              </linearGradient>
+          </defs>
+          <g data-name="blob-shape (3)">
+              <path class="blob" fill="url(#d)"
+                  d="M455.4 151.1c43.1 36.7 73.4 92.8 60.8 136.3-12.7 43.5-68.1 74.4-111.3 119.4-43.1 45-74 104.1-109.8 109-35.9 5-76.7-44.2-111.8-89.2-35.2-45-64.7-85.8-70.8-132.6-6-46.8 11.6-99.6 46.7-136.3 35.2-36.6 88-57.2 142.4-58.8 54.5-1.7 110.6 15.6 153.8 52.2z" />
+          </g>
+      </svg>
+  </div>
+  <div class="animate-pattern">
+      <img src=https://aakash-ez.github.io/images/service/background-pattern.svg alt="background-shape">
+  </div>
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-12">
+              <div class="singleBlog__feature">
+                  <img src=https://aakash-ez.github.io/images/blog/hugging-face-dataset/featured.png alt="feature-image">
+              </div>
+          </div>
+      </div>
+      <div class="row mt-5">
+          <div class="col-lg-12">
+              <div class="singleBlog__content">
+                  <p>NLP has certainly been a domain that fascinated me for a rather long time, as language is one of the most complex concept humans have come up with. It&rsquo;s only through language that we are able to convey our emotions to others, through proses, poems or even ranting to a friend.</p>
+<p>One problem that we often encounter while building NLP systems is the lack of recent data, due to copyright and other laws. Often we sort to the famous Gutenberg or Brown corpus, however the text does not really represent the modern language that we speak.</p>
+<h3 id="about-huggingface">About HuggingFace🤗</h3>
+<p><a href="https://huggingface.co/">HuggingFace🤗</a> is one of the most robust AI communities out there, with a wide range of solutions from models to datasets, built on top of open source principles. The magnanimous leap we have taken in NLP has to be attributed HuggingFace, who created <a href="https://github.com/huggingface/transformers">Transformers</a> (and made it open source), a state of the art architecture which transformed all of Deep Learning.</p>
+<p>Along with various open-source transformer implementations like BERT, RoBERTa etc. Hugging Face, also provides us with a large catalog of more than 100 public datasets, which enable us to work on model training rather than data collection. To make it even easier for programmers, Hugging Face have a library <em>datasets</em> from which one can directly access and use any of these datasets.</p>
+<h3 id="datasets-library">Datasets Library</h3>
+<p>The datasets library is easily installable in any python environment with pip using the below command.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">pip install datasets
+</code></pre></div><p>Once the installation is complete we can make sure that the installation is done right, and check the version using the below python code.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py"><span style="color:#f92672">import</span> datasets
+print(datasets<span style="color:#f92672">.</span>__version__)
+</code></pre></div><p>Let&rsquo;s us now look at the various datasets present in the library. Using the below code, you can list out all the datasets that are available to us, and while writing this post, the number stood at 1510! There&rsquo;s a constant effort taken to add more datasets to this already humongous library.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py"><span style="color:#f92672">from</span> datasets <span style="color:#f92672">import</span> list_datasets
+
+datasets <span style="color:#f92672">=</span> list_datasets()
+print(<span style="color:#e6db74">&#34;Total number of datasets in Datasets Library is&#34;</span>, len(datasets))
+print(datasets)
+</code></pre></div><p>Let us now load a dataset using the <em>Datasets Library</em>. In this example we are going to load the SQUAD dataset and list out the details about the dataset. Obviously any other dataset can also be loaded instead of SQUAD, but it must noted that for large datasets often we have to also mention the module we are looking for.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py"><span style="color:#f92672">from</span> datasets <span style="color:#f92672">import</span> list_datasets, load_dataset
+squad <span style="color:#f92672">=</span> list_datasets(with_details<span style="color:#f92672">=</span><span style="color:#66d9ef">True</span>)[datasets<span style="color:#f92672">.</span>index(<span style="color:#e6db74">&#39;squad&#39;</span>)]
+
+print(squad<span style="color:#f92672">.</span>__dict__)
+
+squad_dataset <span style="color:#f92672">=</span> load_dataset(<span style="color:#e6db74">&#39;squad&#39;</span>)
+</code></pre></div><h3 id="advantages-of-datasets-library">Advantages of Datasets Library</h3>
+<p>So why should one use the <em>Datasets Library</em> when the datasets provided are public and can be downloaded from the internet? Besides the ease with which we can access the datasets, Hugging Face claim the following four reasons:</p>
+<ul>
+<li>Datasets free up users RAM limitations as all the datasets are efficiently memory mapped.</li>
+<li>Smart caching to avoid long waits for data processing.</li>
+<li>Lightweight, fast and transparent pythonic API.</li>
+<li>Interoperability with common libraries like Numpy, pandas, tensorflow etc.</li>
+</ul>
+<p>These are among the reasons why <em>Datasets Library</em> probably is soon going to become the standard when dealing with NLP corpora and even other datasets in ML domain. The ease of use and the standardized format of datasets help engineers focus more on building new and fascinating models rather than breaking their head over gathering data and making it accessible across various formats.</p>
+
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+
+  </div>
+  <section class="footer" id="contact">
+	<div class="footer__background_shape">
+		<svg viewBox="0 0 1920 79">
+			<path d="M0 0h1920v79L0 0z" data-name="Path 1450" />
+		</svg>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="footer__cta">
+					<div class="shape-1">
+						<svg xmlns="http://www.w3.org/2000/svg" width="357" height="315.029" viewBox="0 0 357 315.029">
+							<path data-name="Path 1449"
+								d="M76.1-157.222C91.746-135.8 87.2-94.273 99.993-61.945c12.7 32.328 42.661 55.459 39.248 73.282-3.318 17.823-40.007 30.337-65.6 43.325-25.5 12.988-39.912 26.545-60.01 42.566-20.1 16.116-46.074 34.6-63.328 27.682-17.349-6.921-25.976-39.153-59.915-59.82s-93.1-29.768-105.325-51.478 22.373-56.028 43.609-93.949c21.331-37.921 29.2-79.35 53.563-96.793 24.459-17.444 65.414-10.9 103.9-6.921 38.396 3.982 74.326 5.404 89.965 26.829z"
+								transform="translate(217.489 188.626)" />
+						</svg>
+					</div>
+					<div class="shape-2">
+						<svg xmlns="http://www.w3.org/2000/svg" width="357" height="315.029" viewBox="0 0 357 315.029">
+							<path data-name="Path 1449"
+								d="M76.1-157.222C91.746-135.8 87.2-94.273 99.993-61.945c12.7 32.328 42.661 55.459 39.248 73.282-3.318 17.823-40.007 30.337-65.6 43.325-25.5 12.988-39.912 26.545-60.01 42.566-20.1 16.116-46.074 34.6-63.328 27.682-17.349-6.921-25.976-39.153-59.915-59.82s-93.1-29.768-105.325-51.478 22.373-56.028 43.609-93.949c21.331-37.921 29.2-79.35 53.563-96.793 24.459-17.444 65.414-10.9 103.9-6.921 38.396 3.982 74.326 5.404 89.965 26.829z"
+								transform="translate(217.489 188.626)" />
+						</svg>
+					</div>
+					<div class="text-light footer__cta_content">
+						<span>Contact me</span>
+						<h2 class="mb-0">Let’s Start a Project</h2>
+					</div>
+					<div class="footer__cta_action">
+						<a class="btn btn-light btn-zoom" href="https://aakash-ez.github.io/contact">Get in
+							touch</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row footer__widget">
+			<div class="col-lg-4">
+				<div class="footer__widget_logo mb-5">
+					<img src="https://aakash-ez.github.io/images/contact/widget-logo.png" alt="widget-logo">
+				</div>
+			</div>
+			
+			<div class="col-lg-4">
+				<div class="text-light footer__widget_address mb-5">
+					<h4 class="base-font">Address</h4>
+					
+					<ul class="fa-ul small">
+						<li class="mb-2"><a class="text-light" href="tel:&#43;%2891%29%20962%20936%205421"><span class="fa-li"><i
+										class="fa fa-phone"></i></span>&#43;(91) 962 936 5421</a></li>
+						<li class="mb-2"><a class="text-light" href="mailto:aakash.ezhilan@gmail.com"><span class="fa-li"><i
+										class="fa fa-envelope"></i></span>aakash.ezhilan@gmail.com</a></li>
+						<li class="mb-2">
+							<span class="fa-li"><i class="fa fa-map-marker"></i></span>Chennai, Tamil Nadu, India. Pincode: 603103</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="row footer__footer">
+			<div class="col-lg-6">
+				<div class="footer__footer_copy text-light">
+					<p>Made on top of Portio Template</p>
+				</div>
+			</div>
+			<div class="col-lg-6">
+				<div class="footer__footer_social">
+					<ul class="unstyle-list">
+						
+						
+						<li class="d-inline-block mx-2"><a class="text-light" target="_blank" href="https://www.facebook.com/aakash.ezhilan"><i
+									class="fa fa-facebook-official"></i></a>
+						</li>
+						
+						<li class="d-inline-block mx-2"><a class="text-light" target="_blank" href="https://www.linkedin.com/in/aakash-ez"><i
+									class="fa fa-linkedin-square"></i></a>
+						</li>
+						
+						<li class="d-inline-block mx-2"><a class="text-light" target="_blank" href="https://github.com/Aakash-Ez/"><i
+									class="fa fa-github-square"></i></a>
+						</li>
+						
+						<li class="d-inline-block mx-2"><a class="text-light" target="_blank" href="https://twitter.com/aakash_ezhilan"><i
+									class="fa fa-twitter-square"></i></a>
+						</li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR%20GOOGLE%20MAP%20API&libraries=geometry"></script>
+<script src="https://aakash-ez.github.io/plugins/jQuery/jquery.min.js"></script>
+<script src="https://aakash-ez.github.io/plugins/bootstrap/bootstrap.min.js"></script>
+<script src="https://aakash-ez.github.io/plugins/slick/slick.min.js"></script>
+<script src="https://aakash-ez.github.io/plugins/waypoint/jquery.waypoints.min.js"></script>
+<script src="https://aakash-ez.github.io/plugins/magnafic-popup/jquery.magnific-popup.min.js"></script>
+<script src="https://aakash-ez.github.io/plugins/tweenmax/TweenMax.min.js"></script>
+<script src="https://aakash-ez.github.io/plugins/imagesloaded/imagesloaded.min.js"></script>
+<script src="https://aakash-ez.github.io/plugins/masonry/masonry.min.js"></script>
+
+<script src="https://aakash-ez.github.io/js/form-handler.min.js"></script>
+
+<script src="https://aakash-ez.github.io/js/script.min.js"></script>
+
+</body>
+
+</html>

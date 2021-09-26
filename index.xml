@@ -6,7 +6,17 @@
     <description>Recent content on AakEz</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 19 Sep 2021 14:00:00 +0530</lastBuildDate><atom:link href="https://aakash-ez.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 26 Sep 2021 14:00:00 +0530</lastBuildDate><atom:link href="https://aakash-ez.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugging Face Datasets Library</title>
+      <link>https://aakash-ez.github.io/blog/hugging-face-datasets/</link>
+      <pubDate>Sun, 26 Sep 2021 14:00:00 +0530</pubDate>
+      
+      <guid>https://aakash-ez.github.io/blog/hugging-face-datasets/</guid>
+      <description>NLP has certainly been a domain that fascinated me for a rather long time, as language is one of the most complex concept humans have come up with. It&amp;rsquo;s only through language that we are able to convey our emotions to others, through proses, poems or even ranting to a friend.
+One problem that we often encounter while building NLP systems is the lack of recent data, due to copyright and other laws.</description>
+    </item>
+    
     <item>
       <title>Humor AI: The Witty Side of Machines</title>
       <link>https://aakash-ez.github.io/blog/humor-ai-the-witty-side-of-machines/</link>
