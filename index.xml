@@ -6,7 +6,16 @@
     <description>Recent content on AakEz</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 26 Sep 2021 14:00:00 +0530</lastBuildDate><atom:link href="https://aakash-ez.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 03 Oct 2021 16:00:00 +0530</lastBuildDate><atom:link href="https://aakash-ez.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NLP: Uniqueness of Languages</title>
+      <link>https://aakash-ez.github.io/blog/nlp-uniqueness-of-languages/</link>
+      <pubDate>Sun, 03 Oct 2021 16:00:00 +0530</pubDate>
+      
+      <guid>https://aakash-ez.github.io/blog/nlp-uniqueness-of-languages/</guid>
+      <description>Languages have played a crucial role in defining human history. It isn&amp;rsquo;t hard to see the correlation between languages and cultures, and it thus learning a language isn&amp;rsquo;t much different from learning a new way of life. NLP deals with precisely this, learning features and nature of languages. However, it is necessary that we remember to uniqueness of each language and therefore the same methods cannot be used across different languages.</description>
+    </item>
+    
     <item>
       <title>Hugging Face Datasets Library</title>
       <link>https://aakash-ez.github.io/blog/hugging-face-datasets/</link>
