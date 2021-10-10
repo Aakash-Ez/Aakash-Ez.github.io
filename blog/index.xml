@@ -6,7 +6,17 @@
     <description>Recent content in Recent Articles on AakEz</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 03 Oct 2021 16:00:00 +0530</lastBuildDate><atom:link href="https://aakash-ez.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 09 Oct 2021 16:00:00 +0530</lastBuildDate><atom:link href="https://aakash-ez.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NLP: Indic Language Processing</title>
+      <link>https://aakash-ez.github.io/blog/nlp-indic-language-processing/</link>
+      <pubDate>Sat, 09 Oct 2021 16:00:00 +0530</pubDate>
+      
+      <guid>https://aakash-ez.github.io/blog/nlp-indic-language-processing/</guid>
+      <description>In the last week&amp;rsquo;s post we discussed the need for NLP technologies that account for languages besides English. Continuing with that theme today we will be discussing various existing toolkits and libraries that enable us to perform language processing on Indic Languages like Hindi, Tamil, Telugu etc.
+Various initiatives have been taken on this domain, developing corpora, datasets and toolkits to make Indic NLP tasks easy for the developers and researchers alike.</description>
+    </item>
+    
     <item>
       <title>NLP: Uniqueness of Languages</title>
       <link>https://aakash-ez.github.io/blog/nlp-uniqueness-of-languages/</link>

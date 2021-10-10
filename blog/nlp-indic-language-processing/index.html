@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>NLP: Indic Language Processing</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+  <!-- Slick Carousel -->
+  <link rel="stylesheet" href="https://aakash-ez.github.io/plugins/slick/slick.css" />
+  <link rel="stylesheet" href="https://aakash-ez.github.io/plugins/slick/slick-theme.css" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://aakash-ez.github.io/plugins/font-awesome/css/font-awesome.min.css" />
+
+  <!-- Magnific Popup -->
+  <link rel="stylesheet" href="https://aakash-ez.github.io/plugins/magnafic-popup/magnific-popup.css" />
+
+  <!-- Stylesheets -->
+  
+  <link href="https://aakash-ez.github.io/scss/style.min.css" rel="stylesheet" />
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://aakash-ez.github.io/images/favicon.ico" type="image/x-icon" />
+  <link rel="icon" href="https://aakash-ez.github.io/images/favicon.png" type="image/x-icon" />
+  
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-HRRGJWNWEC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-HRRGJWNWEC');
+  </script>
+  <link rel="stylesheet" type="text/css" href="https://pgn.chessbase.com/CBReplay.css" />
+
+  <script src="https://pgn.chessbase.com/jquery-3.0.0.min.js"></script>
+  <script src="https://pgn.chessbase.com/cbreplay.js" type="text/javascript"></script> 
+  
+</head>
+<head>
+<meta property="og:title" content="NLP: Indic Language Processing | AakEz" />
+<meta name="twitter:title" content="NLP: Indic Language Processing | AakEz" />
+<meta itemprop="name" content="NLP: Indic Language Processing | AakEz" />
+<meta name="application-name" content="NLP: Indic Language Processing | AakEz" />
+<meta property="og:site_name" content="https://aakash-ez.github.io/" />
+<meta name="description" content="Continuing from the last week&#39;s post, we discuss the tools that exist to comprehend and process language that aren&#39;t English. In this post we discuss Indic NLP Library, a toolkit to perform tasks like Transliteration, Word Segmentation, Sentence Splitting etc. on Indian languages." />
+<meta itemprop="description" content="Continuing from the last week&#39;s post, we discuss the tools that exist to comprehend and process language that aren&#39;t English. In this post we discuss Indic NLP Library, a toolkit to perform tasks like Transliteration, Word Segmentation, Sentence Splitting etc. on Indian languages." />
+<meta property="og:description" content="Continuing from the last week&#39;s post, we discuss the tools that exist to comprehend and process language that aren&#39;t English. In this post we discuss Indic NLP Library, a toolkit to perform tasks like Transliteration, Word Segmentation, Sentence Splitting etc. on Indian languages." />
+<meta name="twitter:description" content="Continuing from the last week&#39;s post, we discuss the tools that exist to comprehend and process language that aren&#39;t English. In this post we discuss Indic NLP Library, a toolkit to perform tasks like Transliteration, Word Segmentation, Sentence Splitting etc. on Indian languages." />
+<meta name="robots" content="index,follow" /> 
+<meta name="googlebot" content="index,follow" />
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg fixed-top">
+  <div class="container">
+    <a href="https://aakash-ez.github.io/" class="navbar-brand">
+      <img src="https://aakash-ez.github.io/images/site-navigation/logo.png" alt="site-logo">
+    </a>
+    <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#navbarCollapse">
+      <span class="navbar-toggler-icon"></span>
+      <span class="navbar-toggler-icon"></span>
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+      <ul class="nav navbar-nav main-navigation my-0 mx-auto">
+        
+        
+        <li class="nav-item">
+          <a href="https://aakash-ez.github.io/#home"
+            class="nav-link text-dark text-sm-center p-2 ">Home</a>
+        </li>
+        
+        <li class="nav-item">
+          <a href="https://aakash-ez.github.io//off-topic"
+            class="nav-link text-dark text-sm-center p-2 ">Off Topic</a>
+        </li>
+        
+        <li class="nav-item">
+          <a href="https://aakash-ez.github.io//blog"
+            class="nav-link text-dark text-sm-center p-2 ">Blog</a>
+        </li>
+        
+        <li class="nav-item">
+          <a href="https://aakash-ez.github.io//contact"
+            class="nav-link text-dark text-sm-center p-2 ">Contact</a>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+  <div id="content">
+    
+
+<header class="breadCrumb">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 col-md-12 offset-lg-1 offset-md-0 text-center">
+        <h3 class="breadCrumb__title">NLP: Indic Language Processing</h3>
+        <nav aria-label="breadcrumb" class="d-flex justify-content-center">
+          <ol class="breadcrumb align-items-center">
+            <li class="breadcrumb-item"><a href=https://aakash-ez.github.io/>Home</a></li>
+            <li class="breadcrumb-item"><a href=https://aakash-ez.github.io/blog>All Post</a></li>
+            <li class="breadcrumb-item active">Aakash Ezhilan</li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="section singleBlog">
+  <div class="svg-img">
+      <img src=https://aakash-ez.github.io/images/hero/figure-svg.svg alt="">
+  </div>
+  <div class="animate-shape">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 600">
+          <defs>
+              <linearGradient id="d" x1="0.929" y1="0.111" x2="0.263" y2="0.935" gradientUnits="objectBoundingBox">
+                  <stop offset="0" stop-color="#f1f6f9" />
+                  <stop offset="1" stop-color="#f1f6f9" stop-opacity="0" />
+              </linearGradient>
+          </defs>
+          <g data-name="blob-shape (3)">
+              <path class="blob" fill="url(#d)"
+                  d="M455.4 151.1c43.1 36.7 73.4 92.8 60.8 136.3-12.7 43.5-68.1 74.4-111.3 119.4-43.1 45-74 104.1-109.8 109-35.9 5-76.7-44.2-111.8-89.2-35.2-45-64.7-85.8-70.8-132.6-6-46.8 11.6-99.6 46.7-136.3 35.2-36.6 88-57.2 142.4-58.8 54.5-1.7 110.6 15.6 153.8 52.2z" />
+          </g>
+      </svg>
+  </div>
+  <div class="animate-pattern">
+      <img src=https://aakash-ez.github.io/images/service/background-pattern.svg alt="background-shape">
+  </div>
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-12">
+              <div class="singleBlog__feature">
+                  <img src=https://aakash-ez.github.io/images/blog/indic-language-processing/featured.png alt="feature-image">
+              </div>
+          </div>
+      </div>
+      <div class="row mt-5">
+          <div class="col-lg-12">
+              <div class="singleBlog__content">
+                  <p>In the last week&rsquo;s post we discussed the need for NLP technologies that account for languages besides English. Continuing with that theme today we will be discussing various existing toolkits and libraries that enable us to perform language processing on Indic Languages like Hindi, Tamil, Telugu etc.</p>
+<p>Various initiatives have been taken on this domain, developing corpora, datasets and toolkits to make Indic NLP tasks easy for the developers and researchers alike. <em>AI4Bharat</em> is one such interesting github open-source community which has made great strides of improvement in this particular domain.</p>
+<h3 id="indic-nlp-library">Indic NLP Library</h3>
+<p><strong>Indic NLP Library</strong> is one such interesting initiative that helps AI Engineers develop models and applications using Indic Languages. The library provides various functionalities such as Text Normalization, Transliteration, Translation etc. which form a crucial part in NLP development cycle. Let&rsquo;s now go through some examples of it to understand the application better.</p>
+<p>Firstly we must make sur that our python environment has the library installed in it, if not we can install into through pip as shown below</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py">pip install indic<span style="color:#f92672">-</span>nlp<span style="color:#f92672">-</span>library
+</code></pre></div><p>Let us start with an example of Transliteration from Hindi to Tamil. In the below code we import the Transliteration module from the Indic NLP Library. We then provide an input text in Hindi and use the module to convert it to Tamil. The output of the below code is <em>நமஸ்தே</em>.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py"><span style="color:#f92672">from</span> indicnlp.transliterate.unicode_transliterate <span style="color:#f92672">import</span> <span style="color:#f92672">*</span>
+hin_text <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;नमस्ते&#34;</span>
+print(UnicodeIndicTransliterator<span style="color:#f92672">.</span>transliterate(hin_text,<span style="color:#e6db74">&#34;hi&#34;</span>,<span style="color:#e6db74">&#34;ta&#34;</span>))
+</code></pre></div><p>Let us now consider a common preprocessing step in NLP development cycle, which is tokenization of the sentence. Here, we use the Tokenization module from the library to achieve our goal. The function does a fine job on a wide of languages and few of the outputs have been listen below.</p>
+<ul>
+<li><strong>&lsquo;क्या कर रहे हो?'</strong> gives the output <strong>[&lsquo;क्या&rsquo;, &lsquo;कर&rsquo;, &lsquo;रहे&rsquo;, &lsquo;हो&rsquo;, &lsquo;?']</strong></li>
+<li><strong>&lsquo;எனக்கு என் குழந்தைப் பருவம் நினைவிருக்கிறது&rsquo;</strong> gives the output <strong>[&lsquo;எனக்கு&rsquo;, &lsquo;என்&rsquo;, &lsquo;குழந்தைப்&rsquo;, &lsquo;பருவம்&rsquo;, &lsquo;நினைவிருக்கிறது&rsquo;]</strong></li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py"><span style="color:#f92672">from</span> indicnlp.tokenize <span style="color:#f92672">import</span> indic_tokenize  
+text <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;क्या कर रहे हो?&#39;</span>
+indic_tokenize<span style="color:#f92672">.</span>trivial_tokenize(text)
+</code></pre></div><h3 id="inltk-library">iNLTK Library</h3>
+<p>iNLTK is an Indic Language equivalent of NLTK library, which is the standard library when it comes to text preprocessing. iNLTK similarly has a wide variety of functionalities when it comes to processing of Natural Language, along with a wide variety of dataset and corpora to train models on.</p>
+<p>The iNLTK library has a wide range of language support Hindi, Bengali etc. with detailed analysis of various datasets such as perplexity, classification accuracy etc. Further it also accounts code mixed languages such as Hinglish and Tanglish, giving it an additional edge when dealing with modern data and lingo.</p>
+<h3 id="reference">Reference</h3>
+<ul>
+<li><a href="https://github.com/goru001/inltk">iNLTK GitHub Repository</a></li>
+<li><a href="https://github.com/AI4Bharat/indicnlp_catalog">AI4Bharat NLP Catalog</a></li>
+<li><a href="https://anoopkunchukuttan.github.io/indic_nlp_library/">Indic NLP Library</a></li>
+<li><a href="https://www.analyticsvidhya.com/blog/2020/01/3-important-nlp-libraries-indian-languages-python/">NLP Libraries for Indian Languages</a></li>
+</ul>
+
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+
+  </div>
+  <section class="footer" id="contact">
+	<div class="footer__background_shape">
+		<svg viewBox="0 0 1920 79">
+			<path d="M0 0h1920v79L0 0z" data-name="Path 1450" />
+		</svg>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="footer__cta">
+					<div class="shape-1">
+						<svg xmlns="http://www.w3.org/2000/svg" width="357" height="315.029" viewBox="0 0 357 315.029">
+							<path data-name="Path 1449"
+								d="M76.1-157.222C91.746-135.8 87.2-94.273 99.993-61.945c12.7 32.328 42.661 55.459 39.248 73.282-3.318 17.823-40.007 30.337-65.6 43.325-25.5 12.988-39.912 26.545-60.01 42.566-20.1 16.116-46.074 34.6-63.328 27.682-17.349-6.921-25.976-39.153-59.915-59.82s-93.1-29.768-105.325-51.478 22.373-56.028 43.609-93.949c21.331-37.921 29.2-79.35 53.563-96.793 24.459-17.444 65.414-10.9 103.9-6.921 38.396 3.982 74.326 5.404 89.965 26.829z"
+								transform="translate(217.489 188.626)" />
+						</svg>
+					</div>
+					<div class="shape-2">
+						<svg xmlns="http://www.w3.org/2000/svg" width="357" height="315.029" viewBox="0 0 357 315.029">
+							<path data-name="Path 1449"
+								d="M76.1-157.222C91.746-135.8 87.2-94.273 99.993-61.945c12.7 32.328 42.661 55.459 39.248 73.282-3.318 17.823-40.007 30.337-65.6 43.325-25.5 12.988-39.912 26.545-60.01 42.566-20.1 16.116-46.074 34.6-63.328 27.682-17.349-6.921-25.976-39.153-59.915-59.82s-93.1-29.768-105.325-51.478 22.373-56.028 43.609-93.949c21.331-37.921 29.2-79.35 53.563-96.793 24.459-17.444 65.414-10.9 103.9-6.921 38.396 3.982 74.326 5.404 89.965 26.829z"
+								transform="translate(217.489 188.626)" />
+						</svg>
+					</div>
+					<div class="text-light footer__cta_content">
+						<span>Contact me</span>
+						<h2 class="mb-0">Let’s Start a Project</h2>
+					</div>
+					<div class="footer__cta_action">
+						<a class="btn btn-light btn-zoom" href="https://aakash-ez.github.io/contact">Get in
+							touch</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row footer__widget">
+			<div class="col-lg-4">
+				<div class="footer__widget_logo mb-5">
+					<img src="https://aakash-ez.github.io/images/contact/widget-logo.png" alt="widget-logo">
+				</div>
+			</div>
+			
+			<div class="col-lg-4">
+				<div class="text-light footer__widget_address mb-5">
+					<h4 class="base-font">Address</h4>
+					
+					<ul class="fa-ul small">
+						<li class="mb-2"><a class="text-light" href="tel:&#43;%2891%29%20962%20936%205421"><span class="fa-li"><i
+										class="fa fa-phone"></i></span>&#43;(91) 962 936 5421</a></li>
+						<li class="mb-2"><a class="text-light" href="mailto:aakash.ezhilan@gmail.com"><span class="fa-li"><i
+										class="fa fa-envelope"></i></span>aakash.ezhilan@gmail.com</a></li>
+						<li class="mb-2">
+							<span class="fa-li"><i class="fa fa-map-marker"></i></span>Chennai, Tamil Nadu, India. Pincode: 603103</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="row footer__footer">
+			<div class="col-lg-6">
+				<div class="footer__footer_copy text-light">
+					<p>Made on top of Portio Template</p>
+				</div>
+			</div>
+			<div class="col-lg-6">
+				<div class="footer__footer_social">
+					<ul class="unstyle-list">
+						
+						
+						<li class="d-inline-block mx-2"><a class="text-light" target="_blank" href="https://www.facebook.com/aakash.ezhilan"><i
+									class="fa fa-facebook-official"></i></a>
+						</li>
+						
+						<li class="d-inline-block mx-2"><a class="text-light" target="_blank" href="https://www.linkedin.com/in/aakash-ez"><i
+									class="fa fa-linkedin-square"></i></a>
+						</li>
+						
+						<li class="d-inline-block mx-2"><a class="text-light" target="_blank" href="https://github.com/Aakash-Ez/"><i
+									class="fa fa-github-square"></i></a>
+						</li>
+						
+						<li class="d-inline-block mx-2"><a class="text-light" target="_blank" href="https://twitter.com/aakash_ezhilan"><i
+									class="fa fa-twitter-square"></i></a>
+						</li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR%20GOOGLE%20MAP%20API&libraries=geometry"></script>
+<script src="https://aakash-ez.github.io/plugins/jQuery/jquery.min.js"></script>
+<script src="https://aakash-ez.github.io/plugins/bootstrap/bootstrap.min.js"></script>
+<script src="https://aakash-ez.github.io/plugins/slick/slick.min.js"></script>
+<script src="https://aakash-ez.github.io/plugins/waypoint/jquery.waypoints.min.js"></script>
+<script src="https://aakash-ez.github.io/plugins/magnafic-popup/jquery.magnific-popup.min.js"></script>
+<script src="https://aakash-ez.github.io/plugins/tweenmax/TweenMax.min.js"></script>
+<script src="https://aakash-ez.github.io/plugins/imagesloaded/imagesloaded.min.js"></script>
+<script src="https://aakash-ez.github.io/plugins/masonry/masonry.min.js"></script>
+
+<script src="https://aakash-ez.github.io/js/form-handler.min.js"></script>
+
+<script src="https://aakash-ez.github.io/js/script.min.js"></script>
+
+</body>
+
+</html>
