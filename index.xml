@@ -6,11 +6,11 @@
     <description>Recent content on AakEz</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 09 Oct 2021 16:00:00 +0530</lastBuildDate><atom:link href="https://aakash-ez.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 10 Oct 2021 13:00:00 +0530</lastBuildDate><atom:link href="https://aakash-ez.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>NLP: Indic Language Processing</title>
       <link>https://aakash-ez.github.io/blog/nlp-indic-language-processing/</link>
-      <pubDate>Sat, 09 Oct 2021 16:00:00 +0530</pubDate>
+      <pubDate>Sun, 10 Oct 2021 13:00:00 +0530</pubDate>
       
       <guid>https://aakash-ez.github.io/blog/nlp-indic-language-processing/</guid>
       <description>In the last week&amp;rsquo;s post we discussed the need for NLP technologies that account for languages besides English. Continuing with that theme today we will be discussing various existing toolkits and libraries that enable us to perform language processing on Indic Languages like Hindi, Tamil, Telugu etc.
