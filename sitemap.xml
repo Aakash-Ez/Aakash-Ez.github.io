@@ -3,7 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://aakash-ez.github.io/</loc>
-    <lastmod>2021-10-20T13:00:00+05:30</lastmod>
+    <lastmod>2021-11-14T13:00:00+05:30</lastmod>
+  </url><url>
+    <loc>https://aakash-ez.github.io/blog/eliza-effect-and-gender-stereotypes/</loc>
+    <lastmod>2021-11-14T13:00:00+05:30</lastmod>
+  </url><url>
+    <loc>https://aakash-ez.github.io/blog/</loc>
+    <lastmod>2021-11-14T13:00:00+05:30</lastmod>
   </url><url>
     <loc>https://aakash-ez.github.io/off-topic/rcb-2021-ipl-review/</loc>
     <lastmod>2021-10-20T13:00:00+05:30</lastmod>
@@ -21,9 +27,6 @@
     <lastmod>2021-10-17T13:00:00+05:30</lastmod>
   </url><url>
     <loc>https://aakash-ez.github.io/blog/nlp-indic-language-processing/</loc>
-    <lastmod>2021-10-10T13:00:00+05:30</lastmod>
-  </url><url>
-    <loc>https://aakash-ez.github.io/blog/</loc>
     <lastmod>2021-10-10T13:00:00+05:30</lastmod>
   </url><url>
     <loc>https://aakash-ez.github.io/blog/nlp-uniqueness-of-languages/</loc>
@@ -90,6 +93,12 @@
     <lastmod>2020-12-27T00:00:00+18:00</lastmod>
   </url><url>
     <loc>https://aakash-ez.github.io/blog/cnn-part-1/</loc>
+    <lastmod>2020-12-20T00:00:00+18:00</lastmod>
+  </url><url>
+    <loc>https://aakash-ez.github.io/podcast/cnn-part-1/</loc>
+    <lastmod>2020-12-20T00:00:00+18:00</lastmod>
+  </url><url>
+    <loc>https://aakash-ez.github.io/podcast/</loc>
     <lastmod>2020-12-20T00:00:00+18:00</lastmod>
   </url><url>
     <loc>https://aakash-ez.github.io/off-topic/chess-using-python3/</loc>

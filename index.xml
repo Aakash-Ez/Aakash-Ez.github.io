@@ -6,7 +6,17 @@
     <description>Recent content on AakEz</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 20 Oct 2021 13:00:00 +0530</lastBuildDate><atom:link href="https://aakash-ez.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 14 Nov 2021 13:00:00 +0530</lastBuildDate><atom:link href="https://aakash-ez.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Eliza Effect and Gender Stereotypes </title>
+      <link>https://aakash-ez.github.io/blog/eliza-effect-and-gender-stereotypes/</link>
+      <pubDate>Sun, 14 Nov 2021 13:00:00 +0530</pubDate>
+      
+      <guid>https://aakash-ez.github.io/blog/eliza-effect-and-gender-stereotypes/</guid>
+      <description>It would be unfair to discuss The Eliza Effect without crediting the various stories and myths that had hinted at a similar topic, long before AI was part of our lives. One such myth that I have always found fascinating is the myth of Pygmalion, or for the cinephiles, the movie My Fair Lady.
+The myth is about a Cypriot sculptor who makes a sculpture of his ideal woman. He eventually goes on to fall in love with his creation and wishes to Aphrodite to make his bride a living likeness of his ivory girl, which she grants.</description>
+    </item>
+    
     <item>
       <title>RCB 2021: A Statistical Review</title>
       <link>https://aakash-ez.github.io/off-topic/rcb-2021-ipl-review/</link>
@@ -257,6 +267,16 @@ Let us consider an example where we have a dataset with images of dimension 100x
       <pubDate>Sun, 20 Dec 2020 00:00:00 +1800</pubDate>
       
       <guid>https://aakash-ez.github.io/blog/cnn-part-1/</guid>
+      <description>Images and other media content are becoming a predominant part of data in 21st century due to the rise of smartphones and the ease at which pictures can be taken nowadays. Images are also becoming common in other domains such as medical, engineering etc. Therefore it becomes important for us to understand the nature of these digital images and how to address them in a deep learning domain.
+Nature of Digital Images Digital Images can often be described as mere rectangular collection of pixels.</description>
+    </item>
+    
+    <item>
+      <title>Part I: Image Classification Using CNNs</title>
+      <link>https://aakash-ez.github.io/podcast/cnn-part-1/</link>
+      <pubDate>Sun, 20 Dec 2020 00:00:00 +1800</pubDate>
+      
+      <guid>https://aakash-ez.github.io/podcast/cnn-part-1/</guid>
       <description>Images and other media content are becoming a predominant part of data in 21st century due to the rise of smartphones and the ease at which pictures can be taken nowadays. Images are also becoming common in other domains such as medical, engineering etc. Therefore it becomes important for us to understand the nature of these digital images and how to address them in a deep learning domain.
 Nature of Digital Images Digital Images can often be described as mere rectangular collection of pixels.</description>
     </item>
