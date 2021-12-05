@@ -272,11 +272,11 @@ Nature of Digital Images Digital Images can often be described as mere rectangul
     </item>
     
     <item>
-      <title>Part I: Image Classification Using CNNs</title>
-      <link>https://aakash-ez.github.io/podcast/cnn-part-1/</link>
+      <title>S01E01: Getting Started With AI</title>
+      <link>https://aakash-ez.github.io/podcast/getting-started-with-ai/</link>
       <pubDate>Sun, 20 Dec 2020 00:00:00 +1800</pubDate>
       
-      <guid>https://aakash-ez.github.io/podcast/cnn-part-1/</guid>
+      <guid>https://aakash-ez.github.io/podcast/getting-started-with-ai/</guid>
       <description>Images and other media content are becoming a predominant part of data in 21st century due to the rise of smartphones and the ease at which pictures can be taken nowadays. Images are also becoming common in other domains such as medical, engineering etc. Therefore it becomes important for us to understand the nature of these digital images and how to address them in a deep learning domain.
 Nature of Digital Images Digital Images can often be described as mere rectangular collection of pixels.</description>
     </item>
