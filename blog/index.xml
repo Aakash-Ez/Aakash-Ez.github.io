@@ -6,7 +6,16 @@
     <description>Recent content in Recent Articles on AakEz</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 14 Nov 2021 13:00:00 +0530</lastBuildDate><atom:link href="https://aakash-ez.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 Dec 2021 13:00:00 +0530</lastBuildDate><atom:link href="https://aakash-ez.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rational Agents and Good Behavior</title>
+      <link>https://aakash-ez.github.io/blog/rational-agents-and-good-behavior/</link>
+      <pubDate>Sun, 19 Dec 2021 13:00:00 +0530</pubDate>
+      
+      <guid>https://aakash-ez.github.io/blog/rational-agents-and-good-behavior/</guid>
+      <description>It&amp;rsquo;s probably not that hard to define what a Rational Agent is on a surface level. It&amp;rsquo;s an agent that makes the right decision, does the right thing. That&amp;rsquo;s what we want, an AI that makes the right choices because that&amp;rsquo;s better than one that makes the wrong choices. However, what does it mean by making the right choice or decision? How do we define it? Is it even possible to define something as Absolutely Rational?</description>
+    </item>
+    
     <item>
       <title>Eliza Effect and Gender Stereotypes </title>
       <link>https://aakash-ez.github.io/blog/eliza-effect-and-gender-stereotypes/</link>
