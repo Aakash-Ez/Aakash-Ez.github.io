@@ -6,7 +6,17 @@
     <description>Recent content on AakEz</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 19 Dec 2021 13:00:00 +0530</lastBuildDate><atom:link href="https://aakash-ez.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 26 Dec 2021 00:00:00 +0530</lastBuildDate><atom:link href="https://aakash-ez.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Case of AI Environments</title>
+      <link>https://aakash-ez.github.io/blog/the-case-of-ai-environment/</link>
+      <pubDate>Sun, 26 Dec 2021 00:00:00 +0530</pubDate>
+      
+      <guid>https://aakash-ez.github.io/blog/the-case-of-ai-environment/</guid>
+      <description>In the previous week&amp;rsquo;s post, we discussed the nature of AI agents and what constitutes rationality in them. However we did not dive into the nature of the environment these agents function in. This environment plays a crucial role in defining the goals and objectives for the agents and thus what they learn.
+The environment can be simply defined as the world the agent functions in; for humans it is earth, for chess pieces it is the chessboard and so on.</description>
+    </item>
+    
     <item>
       <title>Rational Agents and Good Behavior</title>
       <link>https://aakash-ez.github.io/blog/rational-agents-and-good-behavior/</link>
